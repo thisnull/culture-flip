@@ -49,39 +49,37 @@ function bindEvents() {
     prevBtn.addEventListener('click', prev);
     let startX = 0;
     let startY = 0;
-    let startTime = 0;
-    let touchHandled = false;
+    let moved = false;
     card.addEventListener('touchstart', (e) => {
         startX = e.touches[0].clientX;
         startY = e.touches[0].clientY;
-        startTime = Date.now();
-        touchHandled = false;
+        moved = false;
+    });
+    card.addEventListener('touchmove', (e) => {
+        const currentX = e.touches[0].clientX;
+        const currentY = e.touches[0].clientY;
+        const diffX = Math.abs(currentX - startX);
+        const diffY = Math.abs(currentY - startY);
+        if (diffX > 20 || diffY > 20) {
+            moved = true;
+        }
     });
     card.addEventListener('touchend', (e) => {
         const endX = e.changedTouches[0].clientX;
         const endY = e.changedTouches[0].clientY;
-        const endTime = Date.now();
         const diffX = startX - endX;
         const diffY = Math.abs(startY - endY);
-        const timeDiff = endTime - startTime;
-        if (timeDiff > 1000)
-            return;
-        if (Math.abs(diffX) > 80 && diffY < 60) {
+        if (Math.abs(diffX) > 100 && diffY < 50) {
+            e.preventDefault();
             if (diffX > 0) {
                 next();
             }
             else {
                 prev();
             }
-            touchHandled = true;
         }
-        else if (Math.abs(diffX) < 40 && diffY < 40) {
-            flip();
-            touchHandled = true;
-        }
-    });
-    card.addEventListener('click', (e) => {
-        if (!touchHandled) {
+        else if (!moved) {
+            e.preventDefault();
             flip();
         }
     });

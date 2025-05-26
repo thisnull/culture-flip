@@ -71,51 +71,47 @@ function bindEvents() {
   nextBtn.addEventListener('click', next);
   prevBtn.addEventListener('click', prev);
   
-  // 添加触摸支持（优化iPad体验）
+  // 添加触摸支持（iPad优化）
   let startX = 0;
   let startY = 0;
-  let startTime = 0;
-  let touchHandled = false;
+  let moved = false;
   
   card.addEventListener('touchstart', (e) => {
     startX = e.touches[0].clientX;
     startY = e.touches[0].clientY;
-    startTime = Date.now();
-    touchHandled = false;
+    moved = false;
+  });
+  
+  card.addEventListener('touchmove', (e) => {
+    const currentX = e.touches[0].clientX;
+    const currentY = e.touches[0].clientY;
+    const diffX = Math.abs(currentX - startX);
+    const diffY = Math.abs(currentY - startY);
+    
+    // 如果移动超过20px，标记为移动
+    if (diffX > 20 || diffY > 20) {
+      moved = true;
+    }
   });
   
   card.addEventListener('touchend', (e) => {
     const endX = e.changedTouches[0].clientX;
     const endY = e.changedTouches[0].clientY;
-    const endTime = Date.now();
-    
     const diffX = startX - endX;
     const diffY = Math.abs(startY - endY);
-    const timeDiff = endTime - startTime;
     
-    // 防止意外触发，但放宽时间限制
-    if (timeDiff > 1000) return; 
-    
-    // 水平滑动切换题目（iPad优化阈值）
-    if (Math.abs(diffX) > 80 && diffY < 60) {
+    // 如果是明显的水平滑动（大于100px且垂直移动小于50px）
+    if (Math.abs(diffX) > 100 && diffY < 50) {
+      e.preventDefault(); // 阻止默认行为
       if (diffX > 0) {
         next(); // 向左滑动，下一题
       } else {
         prev(); // 向右滑动，上一题
       }
-      touchHandled = true;
-    } 
-    // 轻触翻转卡片（放宽判断条件）
-    else if (Math.abs(diffX) < 40 && diffY < 40) {
-      flip();
-      touchHandled = true;
     }
-  });
-  
-  // 添加click事件作为备用，确保点击总是有效
-  card.addEventListener('click', (e) => {
-    // 如果触摸事件已经处理过，就不重复处理
-    if (!touchHandled) {
+    // 如果没有明显移动，就是点击
+    else if (!moved) {
+      e.preventDefault(); // 阻止默认行为
       flip();
     }
   });
