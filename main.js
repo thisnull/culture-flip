@@ -48,21 +48,31 @@ function bindEvents() {
     nextBtn.addEventListener('click', next);
     prevBtn.addEventListener('click', prev);
     let startX = 0;
+    let startY = 0;
+    let startTime = 0;
     card.addEventListener('touchstart', (e) => {
         startX = e.touches[0].clientX;
+        startY = e.touches[0].clientY;
+        startTime = Date.now();
     });
     card.addEventListener('touchend', (e) => {
         const endX = e.changedTouches[0].clientX;
-        const diff = startX - endX;
-        if (Math.abs(diff) > 50) {
-            if (diff > 0) {
+        const endY = e.changedTouches[0].clientY;
+        const endTime = Date.now();
+        const diffX = startX - endX;
+        const diffY = Math.abs(startY - endY);
+        const timeDiff = endTime - startTime;
+        if (timeDiff > 500)
+            return;
+        if (Math.abs(diffX) > 80 && diffY < 50) {
+            if (diffX > 0) {
                 next();
             }
             else {
                 prev();
             }
         }
-        else {
+        else if (Math.abs(diffX) < 20 && diffY < 20) {
             flip();
         }
     });

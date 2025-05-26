@@ -71,24 +71,40 @@ function bindEvents() {
   nextBtn.addEventListener('click', next);
   prevBtn.addEventListener('click', prev);
   
-  // 添加触摸支持
+  // 添加触摸支持（优化iPad体验）
   let startX = 0;
+  let startY = 0;
+  let startTime = 0;
+  
   card.addEventListener('touchstart', (e) => {
     startX = e.touches[0].clientX;
+    startY = e.touches[0].clientY;
+    startTime = Date.now();
   });
   
   card.addEventListener('touchend', (e) => {
     const endX = e.changedTouches[0].clientX;
-    const diff = startX - endX;
+    const endY = e.changedTouches[0].clientY;
+    const endTime = Date.now();
     
-    if (Math.abs(diff) > 50) { // 滑动距离阈值
-      if (diff > 0) {
+    const diffX = startX - endX;
+    const diffY = Math.abs(startY - endY);
+    const timeDiff = endTime - startTime;
+    
+    // 防止意外触发，确保是明确的手势
+    if (timeDiff > 500) return; // 超过500ms认为不是快速手势
+    
+    // 水平滑动切换题目（优化iPad触摸阈值）
+    if (Math.abs(diffX) > 80 && diffY < 50) {
+      if (diffX > 0) {
         next(); // 向左滑动，下一题
       } else {
         prev(); // 向右滑动，上一题
       }
-    } else {
-      flip(); // 点击翻转
+    } 
+    // 轻触翻转卡片
+    else if (Math.abs(diffX) < 20 && diffY < 20) {
+      flip();
     }
   });
 }

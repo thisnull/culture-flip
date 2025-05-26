@@ -498,6 +498,137 @@ body {
 }
 
 /* ====== 响应式设计 ====== */
+
+/* iPad适配 (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    max-width: 600px;
+    padding: 0 40px;
+  }
+  
+  .header {
+    padding: 50px 0 40px;
+  }
+  
+  .logo {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .app-title {
+    font-size: 2.2rem;
+  }
+  
+  .app-subtitle {
+    font-size: 1.1rem;
+  }
+  
+  .card {
+    width: 480px;
+    height: 300px;
+  }
+  
+  .card-content {
+    padding: 40px;
+  }
+  
+  .question-icon,
+  .answer-icon {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .question-en,
+  .answer-en {
+    font-size: 1.1rem;
+    margin-bottom: 28px;
+  }
+  
+  .question-zh,
+  .answer-zh {
+    font-size: 1.3rem;
+  }
+  
+  .hint-text {
+    font-size: 0.9rem;
+    margin-top: 25px;
+  }
+  
+  .btn {
+    padding: 16px 32px;
+    font-size: 1.1rem;
+    gap: 12px;
+  }
+  
+  .controls {
+    gap: 24px;
+  }
+  
+  .footer-content {
+    padding: 30px;
+  }
+}
+
+/* iPad横屏适配 */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .container {
+    max-width: 800px;
+  }
+  
+  .main-content {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+  }
+  
+  .card-container {
+    margin-bottom: 0;
+  }
+  
+  .controls {
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .btn {
+    min-width: 140px;
+  }
+}
+
+/* 大屏iPad Pro适配 (1024px+) */
+@media (min-width: 1024px) {
+  .container {
+    max-width: 700px;
+    padding: 0 50px;
+  }
+  
+  .card {
+    width: 520px;
+    height: 320px;
+  }
+  
+  .card-content {
+    padding: 50px;
+  }
+  
+  .question-en,
+  .answer-en {
+    font-size: 1.2rem;
+  }
+  
+  .question-zh,
+  .answer-zh {
+    font-size: 1.4rem;
+  }
+  
+  .btn {
+    padding: 18px 36px;
+    font-size: 1.2rem;
+  }
+}
+
+/* 手机适配 */
 @media (max-width: 480px) {
   .container {
     padding: 0 15px;
@@ -535,7 +666,7 @@ body {
   
   .question-zh,
   .answer-zh {
-    font-size: 1.1rem;
+    font-size: 0.95rem;
   }
   
   .question-en,
