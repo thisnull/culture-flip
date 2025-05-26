@@ -75,11 +75,13 @@ function bindEvents() {
   let startX = 0;
   let startY = 0;
   let startTime = 0;
+  let touchHandled = false;
   
   card.addEventListener('touchstart', (e) => {
     startX = e.touches[0].clientX;
     startY = e.touches[0].clientY;
     startTime = Date.now();
+    touchHandled = false;
   });
   
   card.addEventListener('touchend', (e) => {
@@ -91,19 +93,29 @@ function bindEvents() {
     const diffY = Math.abs(startY - endY);
     const timeDiff = endTime - startTime;
     
-    // 防止意外触发，确保是明确的手势
-    if (timeDiff > 500) return; // 超过500ms认为不是快速手势
+    // 防止意外触发，但放宽时间限制
+    if (timeDiff > 1000) return; 
     
-    // 水平滑动切换题目（优化iPad触摸阈值）
-    if (Math.abs(diffX) > 80 && diffY < 50) {
+    // 水平滑动切换题目（iPad优化阈值）
+    if (Math.abs(diffX) > 80 && diffY < 60) {
       if (diffX > 0) {
         next(); // 向左滑动，下一题
       } else {
         prev(); // 向右滑动，上一题
       }
+      touchHandled = true;
     } 
-    // 轻触翻转卡片
-    else if (Math.abs(diffX) < 20 && diffY < 20) {
+    // 轻触翻转卡片（放宽判断条件）
+    else if (Math.abs(diffX) < 40 && diffY < 40) {
+      flip();
+      touchHandled = true;
+    }
+  });
+  
+  // 添加click事件作为备用，确保点击总是有效
+  card.addEventListener('click', (e) => {
+    // 如果触摸事件已经处理过，就不重复处理
+    if (!touchHandled) {
       flip();
     }
   });

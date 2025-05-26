@@ -50,10 +50,12 @@ function bindEvents() {
     let startX = 0;
     let startY = 0;
     let startTime = 0;
+    let touchHandled = false;
     card.addEventListener('touchstart', (e) => {
         startX = e.touches[0].clientX;
         startY = e.touches[0].clientY;
         startTime = Date.now();
+        touchHandled = false;
     });
     card.addEventListener('touchend', (e) => {
         const endX = e.changedTouches[0].clientX;
@@ -62,17 +64,24 @@ function bindEvents() {
         const diffX = startX - endX;
         const diffY = Math.abs(startY - endY);
         const timeDiff = endTime - startTime;
-        if (timeDiff > 500)
+        if (timeDiff > 1000)
             return;
-        if (Math.abs(diffX) > 80 && diffY < 50) {
+        if (Math.abs(diffX) > 80 && diffY < 60) {
             if (diffX > 0) {
                 next();
             }
             else {
                 prev();
             }
+            touchHandled = true;
         }
-        else if (Math.abs(diffX) < 20 && diffY < 20) {
+        else if (Math.abs(diffX) < 40 && diffY < 40) {
+            flip();
+            touchHandled = true;
+        }
+    });
+    card.addEventListener('click', (e) => {
+        if (!touchHandled) {
             flip();
         }
     });
