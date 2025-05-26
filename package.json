@@ -1,0 +1,31 @@
+{
+  "name": "culture-flip",
+  "version": "1.0.0",
+  "description": "让孩子在 iPad 上翻卡学习中华文化的零后端小站 - Bilingual card flip game for learning Chinese culture",
+  "main": "main.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "npx http-server -c-1 .",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "education",
+    "chinese-culture",
+    "bilingual",
+    "flashcards",
+    "typescript"
+  ],
+  "author": "Culture Flip Team",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/culture-flip.git"
+  },
+  "homepage": "https://your-username.github.io/culture-flip"
+}

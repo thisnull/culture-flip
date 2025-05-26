@@ -1,2402 +1,491 @@
 [
   {
-    "id": "INSTRUMENTS_200",
-    "category": "instruments",
+    "id": "HIS_001",
+    "category": "history",
     "question": {
-      "zh": "「羌笛」的英文是什么？",
-      "en": "What is \"Qiangdi\" in Chinese?"
+      "zh": "被誉为“纸上谈兵”的战国时期著作是哪部兵书？",
+      "en": "Which Warring-States military treatise is nicknamed “Armchair Warfare” for its theoretical approach?"
     },
     "answer": {
-      "zh": "Qiangdi",
-      "en": "羌笛"
+      "zh": "《孙膑兵法》",
+      "en": "The Art of War by Sun Bin"
     }
   },
   {
-    "id": "INSTRUMENTS_186",
-    "category": "instruments",
+    "id": "HIS_002",
+    "category": "history",
     "question": {
-      "zh": "「唢呐」的英文是什么？",
-      "en": "What is \"Suona\" in Chinese?"
+      "zh": "中国古代官员“入仕”时要通过哪项最重要的考试制度？",
+      "en": "What rigorous examination system did ancient Chinese scholars pass to enter government service?"
     },
     "answer": {
-      "zh": "Suona",
-      "en": "唢呐"
+      "zh": "科举制度",
+      "en": "The Imperial Civil-Service Examination (Keju)"
     }
   },
   {
-    "id": "TEA_075",
-    "category": "tea",
+    "id": "HIS_003",
+    "category": "history",
     "question": {
-      "zh": "「信阳毛尖」的英文是什么？",
-      "en": "What is \"Xinyang Maojian Tea\" in Chinese?"
+      "zh": "哪位航海家率领“宝船”七下西洋，被誉为海上丝绸之路的先驱？",
+      "en": "Which admiral led seven treasure-ship voyages that expanded the Maritime Silk Road?"
     },
     "answer": {
-      "zh": "Xinyang Maojian Tea",
-      "en": "信阳毛尖"
+      "zh": "郑和",
+      "en": "Zheng He"
     }
   },
   {
-    "id": "PHILOSOPHERS_115",
-    "category": "philosophers",
+    "id": "HIS_004",
+    "category": "history",
     "question": {
-      "zh": "「贾谊」的英文是什么？",
-      "en": "What is \"Jia Yi\" in Chinese?"
+      "zh": "中国历史上第一个多民族统一帝国是哪个朝代？",
+      "en": "Which dynasty was the first to unify China’s major ethnic groups under one empire?"
     },
     "answer": {
-      "zh": "Jia Yi",
-      "en": "贾谊"
+      "zh": "秦朝",
+      "en": "The Qin Dynasty"
     }
   },
   {
-    "id": "FESTIVALS_086",
-    "category": "festivals",
+    "id": "HIS_005",
+    "category": "history",
     "question": {
-      "zh": "「中秋节」的英文是什么？",
-      "en": "What is \"Mid‑Autumn Festival\" in Chinese?"
+      "zh": "丝绸之路的陆路起点位于今天中国的哪座城市？",
+      "en": "Which modern Chinese city served as the eastern starting point of the overland Silk Road?"
     },
     "answer": {
-      "zh": "Mid‑Autumn Festival",
-      "en": "中秋节"
+      "zh": "西安（古长安）",
+      "en": "Xi’an (ancient Chang’an)"
     }
   },
+
   {
-    "id": "MOUNTAINS_170",
-    "category": "mountains",
-    "question": {
-      "zh": "「青城山」的英文是什么？",
-      "en": "What is \"Mount Qingcheng\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Mount Qingcheng",
-      "en": "青城山"
-    }
-  },
-  {
-    "id": "UNESCO_SITES_029",
+    "id": "UNE_006",
     "category": "unesco_sites",
     "question": {
-      "zh": "「西湖」的英文是什么？",
-      "en": "What is \"West Lake\" in Chinese?"
+      "zh": "哪座石窟以“飞天壁画”闻名，展现了中西文化交融的佛教艺术？",
+      "en": "Which grotto complex is famous for its “Flying Apsaras” murals blending Eastern and Western art?"
     },
     "answer": {
-      "zh": "West Lake",
-      "en": "西湖"
+      "zh": "敦煌莫高窟",
+      "en": "The Mogao Caves in Dunhuang"
     }
   },
   {
-    "id": "INSTRUMENTS_192",
+    "id": "UNE_007",
+    "category": "unesco_sites",
+    "question": {
+      "zh": "被称为“世界屋脊上的宫殿”，位于拉萨的世界文化遗产是哪座？",
+      "en": "Which UNESCO palace in Lhasa is known as the “Palace on the Roof of the World”?"
+    },
+    "answer": {
+      "zh": "布达拉宫",
+      "en": "The Potala Palace"
+    }
+  },
+  {
+    "id": "UNE_008",
+    "category": "unesco_sites",
+    "question": {
+      "zh": "中国四大石窟之一，位于洛阳，以唐代佛像比例写实著称的是哪处？",
+      "en": "Which of China’s four great grottoes, located in Luoyang, is noted for Tang-dynasty realistic Buddha statues?"
+    },
+    "answer": {
+      "zh": "龙门石窟",
+      "en": "The Longmen Grottoes"
+    }
+  },
+  {
+    "id": "UNE_009",
+    "category": "unesco_sites",
+    "question": {
+      "zh": "哪座山因“天下第一奇山”之誉与迎客松而列入世界自然文化双遗产？",
+      "en": "Which mountain, famed for the ‘Greeting Pine,’ is a dual World Natural and Cultural Heritage site nicknamed “the most spectacular under heaven”?"
+    },
+    "answer": {
+      "zh": "黄山",
+      "en": "Mount Huangshan"
+    }
+  },
+  {
+    "id": "UNE_010",
+    "category": "unesco_sites",
+    "question": {
+      "zh": "福建土楼采用环形结构能抵御外敌，其主要居住民族是哪一族？",
+      "en": "The circular Fujian Tulou earthen buildings were designed for defense. Which ethnic group primarily built and lived in them?"
+    },
+    "answer": {
+      "zh": "客家人",
+      "en": "The Hakka People"
+    }
+  },
+
+  {
+    "id": "FOOD_011",
+    "category": "dishes",
+    "question": {
+      "zh": "哪道京味名菜需以果木烤制并配荷叶饼和甜面酱食用？",
+      "en": "Which Beijing delicacy is roasted over fruitwood and wrapped with hoisin sauce in thin pancakes?"
+    },
+    "answer": {
+      "zh": "北京烤鸭",
+      "en": "Peking Duck"
+    }
+  },
+  {
+    "id": "FOOD_012",
+    "category": "dishes",
+    "question": {
+      "zh": "“鱼跃龙门”常用哪道辣味湖南菜来形容，因为它以整条鱼头为主材？",
+      "en": "Which spicy Hunan dish, known for using a whole fish head, is often linked to the phrase ‘Carp Leaping over the Dragon Gate’?"
+    },
+    "answer": {
+      "zh": "剁椒鱼头",
+      "en": "Fish Head with Chopped Chili"
+    }
+  },
+  {
+    "id": "FOOD_013",
+    "category": "dishes",
+    "question": {
+      "zh": "上海小笼包咬开能喝汤，其中汤汁主要来自包入的哪种凝固物？",
+      "en": "Soup dumplings burst with broth because the filling contains which gelatin that melts when steamed?"
+    },
+    "answer": {
+      "zh": "猪皮冻",
+      "en": "Pork-skin Aspic"
+    }
+  },
+  {
+    "id": "FOOD_014",
+    "category": "dishes",
+    "question": {
+      "zh": "“八大菜系”中，以香辣著称且常用花椒的菜系是哪一系？",
+      "en": "Which of China’s Eight Culinary Traditions is famous for spicy flavors and liberal use of Sichuan peppercorn?"
+    },
+    "answer": {
+      "zh": "川菜",
+      "en": "Sichuan Cuisine"
+    }
+  },
+  {
+    "id": "FOOD_015",
+    "category": "dishes",
+    "question": {
+      "zh": "端午节吃粽子的传统源于纪念哪位爱国诗人？",
+      "en": "Eating Zongzi at the Dragon Boat Festival commemorates which patriotic poet?"
+    },
+    "answer": {
+      "zh": "屈原",
+      "en": "Qu Yuan"
+    }
+  },
+
+  {
+    "id": "TEA_016",
+    "category": "tea",
+    "question": {
+      "zh": "哪种绿茶因其采于杭州西湖而得名，被誉为“国茶”？",
+      "en": "Which green tea, harvested around Hangzhou’s West Lake, is celebrated as China’s ‘National Tea’?"
+    },
+    "answer": {
+      "zh": "龙井茶",
+      "en": "Longjing (Dragon Well) Tea"
+    }
+  },
+  {
+    "id": "TEA_017",
+    "category": "tea",
+    "question": {
+      "zh": "普洱茶独特的陈化风味来自于哪种特殊后发酵工艺？",
+      "en": "Pu’er tea’s earthy, aged flavor results from what unique post-fermentation process?"
+    },
+    "answer": {
+      "zh": "渥堆发酵",
+      "en": "Wo-Dui (pile fermentation)"
+    }
+  },
+  {
+    "id": "TEA_018",
+    "category": "tea",
+    "question": {
+      "zh": "武夷岩茶“大红袍”因母株稀少，被奉为“茶中状元”。它属于哪一茶类？",
+      "en": "The cliff-grown Dahongpao, called the ‘Champion of Teas,’ belongs to which tea category?"
+    },
+    "answer": {
+      "zh": "乌龙茶",
+      "en": "Oolong Tea"
+    }
+  },
+  {
+    "id": "TEA_019",
+    "category": "tea",
+    "question": {
+      "zh": "哪种花茶以“窨花”工艺将茶叶与花香反复交融，常用茉莉花？",
+      "en": "Which scented tea uses repeated ‘scenting’ to infuse leaves with jasmine aroma?"
+    },
+    "answer": {
+      "zh": "茉莉花茶",
+      "en": "Jasmine-scented Tea"
+    }
+  },
+
+  {
+    "id": "FES_020",
+    "category": "festivals",
+    "question": {
+      "zh": "农历正月十五观花灯、吃元宵的节日叫什么？",
+      "en": "Which festival on the 15th day of the Lunar New Year features lantern displays and sweet rice-ball desserts?"
+    },
+    "answer": {
+      "zh": "元宵节",
+      "en": "The Lantern Festival"
+    }
+  },
+  {
+    "id": "FES_021",
+    "category": "festivals",
+    "question": {
+      "zh": "中秋夜赏月配月饼，传统寓意是什么？",
+      "en": "What traditional meaning is conveyed by moon-gazing and sharing mooncakes during Mid-Autumn Festival?"
+    },
+    "answer": {
+      "zh": "团圆",
+      "en": "Family Reunion"
+    }
+  },
+  {
+    "id": "FES_022",
+    "category": "festivals",
+    "question": {
+      "zh": "赛龙舟活动最早源于哪条中国江河的祭祀习俗？",
+      "en": "Dragon-boat racing originated from sacrificial rites on which major Chinese river?"
+    },
+    "answer": {
+      "zh": "汨罗江",
+      "en": "The Miluo River"
+    }
+  },
+  {
+    "id": "FES_023",
+    "category": "festivals",
+    "question": {
+      "zh": "重阳节有登高祈福的传统，其日期在农历哪个月份？",
+      "en": "The Double-Ninth Festival encourages mountain climbing for blessings. In which lunar month does it fall?"
+    },
+    "answer": {
+      "zh": "九月初九",
+      "en": "The ninth day of the ninth lunar month"
+    }
+  },
+
+  {
+    "id": "INV_024",
+    "category": "inventions",
+    "question": {
+      "zh": "哪项古代发明通过“活字”提升了印刷效率？",
+      "en": "Which ancient invention used movable characters to greatly speed up printing?"
+    },
+    "answer": {
+      "zh": "活字印刷术",
+      "en": "Movable-type Printing"
+    }
+  },
+  {
+    "id": "INV_025",
+    "category": "inventions",
+    "question": {
+      "zh": "张衡发明的“候风地动仪”主要用于监测哪类自然灾害？",
+      "en": "Zhang Heng’s ancient seismoscope was designed to detect which natural disaster?"
+    },
+    "answer": {
+      "zh": "地震",
+      "en": "Earthquakes"
+    }
+  },
+  {
+    "id": "INV_026",
+    "category": "inventions",
+    "question": {
+      "zh": "古代“四大发明”中，哪一项改变了航海的方向定位方式？",
+      "en": "Which of China’s Four Great Inventions revolutionized navigation by indicating direction?"
+    },
+    "answer": {
+      "zh": "指南针",
+      "en": "The Compass"
+    }
+  },
+  {
+    "id": "INV_027",
+    "category": "inventions",
+    "question": {
+      "zh": "哪种中国古代武器利用硝石等混合物，实现了火力攻击的突破？",
+      "en": "Which ancient Chinese weapon, using a nitrate-based mixture, marked a breakthrough in gunpowder warfare?"
+    },
+    "answer": {
+      "zh": "火药箭 / 火箭",
+      "en": "Gunpowder Arrow / Fire Arrow"
+    }
+  },
+
+  {
+    "id": "GEO_028",
+    "category": "mountains",
+    "question": {
+      "zh": "被尊为“五岳之首”的山是哪一座？",
+      "en": "Which mountain is honored as the foremost of China’s Five Sacred Peaks?"
+    },
+    "answer": {
+      "zh": "泰山",
+      "en": "Mount Tai"
+    }
+  },
+  {
+    "id": "GEO_029",
+    "category": "rivers",
+    "question": {
+      "zh": "哪条河因孕育华夏文明而被称作“母亲河”？",
+      "en": "Which river is called the ‘Mother River’ for nurturing early Chinese civilization?"
+    },
+    "answer": {
+      "zh": "黄河",
+      "en": "The Yellow River"
+    }
+  },
+  {
+    "id": "GEO_030",
+    "category": "mountains",
+    "question": {
+      "zh": "佛教四大名山之一，因“金顶云海”景观而著名的是哪座？",
+      "en": "Which of China’s Four Sacred Buddhist Mountains is renowned for its ‘Golden Summit Sea of Clouds’?"
+    },
+    "answer": {
+      "zh": "峨眉山",
+      "en": "Mount Emei"
+    }
+  },
+  {
+    "id": "GEO_031",
+    "category": "rivers",
+    "question": {
+      "zh": "长江在四川一段因急转弯形成壮观峡谷，被称为“___第一湾”。",
+      "en": "The Yangtze forms a spectacular gorge at a sharp bend in Sichuan, nicknamed ‘the ___ First Bend.’ Fill in the blank."
+    },
+    "answer": {
+      "zh": "金沙江",
+      "en": "Jinsha River"
+    }
+  },
+
+  {
+    "id": "MUS_032",
     "category": "instruments",
     "question": {
-      "zh": "「箫」的英文是什么？",
-      "en": "What is \"Xiao\" in Chinese?"
+      "zh": "古筝常用的最经典演奏技巧，被称作“___指飞瀑”。",
+      "en": "Gu-zheng’s signature rapid-picking technique is poetically called ‘flying waterfall of ___ fingers.’ Fill in the blank."
     },
     "answer": {
-      "zh": "Xiao",
-      "en": "箫"
+      "zh": "十",
+      "en": "ten"
     }
   },
   {
-    "id": "TEA_064",
-    "category": "tea",
-    "question": {
-      "zh": "「普洱茶」的英文是什么？",
-      "en": "What is \"Pu'er Tea\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Pu'er Tea",
-      "en": "普洱茶"
-    }
-  },
-  {
-    "id": "ANCIENT_CITIES_010",
-    "category": "ancient_cities",
-    "question": {
-      "zh": "「平遥」的英文是什么？",
-      "en": "What is \"Pingyao\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Pingyao",
-      "en": "平遥"
-    }
-  },
-  {
-    "id": "INSTRUMENTS_184",
+    "id": "MUS_033",
     "category": "instruments",
     "question": {
-      "zh": "「笛子」的英文是什么？",
-      "en": "What is \"Dizi\" in Chinese?"
+      "zh": "“高山流水”是中国古琴名曲，传说与哪位伯牙知音有关？",
+      "en": "The guqin masterpiece ‘High Mountains, Flowing Water’ is linked to which legendary confidant of the musician Boya?"
     },
     "answer": {
-      "zh": "Dizi",
-      "en": "笛子"
+      "zh": "钟子期",
+      "en": "Zhong Ziqi"
     }
   },
   {
-    "id": "MOUNTAINS_177",
-    "category": "mountains",
-    "question": {
-      "zh": "「玉龙雪山」的英文是什么？",
-      "en": "What is \"Jade Dragon Snow Mountain\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Jade Dragon Snow Mountain",
-      "en": "玉龙雪山"
-    }
-  },
-  {
-    "id": "DISHES_050",
-    "category": "dishes",
-    "question": {
-      "zh": "「叫花鸡」的英文是什么？",
-      "en": "What is \"Beggar's Chicken\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Beggar's Chicken",
-      "en": "叫花鸡"
-    }
-  },
-  {
-    "id": "DISHES_043",
-    "category": "dishes",
-    "question": {
-      "zh": "「小笼包」的英文是什么？",
-      "en": "What is \"Soup Dumplings\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Soup Dumplings",
-      "en": "小笼包"
-    }
-  },
-  {
-    "id": "DISHES_046",
-    "category": "dishes",
-    "question": {
-      "zh": "「宫保鸡丁」的英文是什么？",
-      "en": "What is \"Kung Pao Chicken\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Kung Pao Chicken",
-      "en": "宫保鸡丁"
-    }
-  },
-  {
-    "id": "RIVERS_152",
-    "category": "rivers",
-    "question": {
-      "zh": "「赣江」的英文是什么？",
-      "en": "What is \"Gan River\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Gan River",
-      "en": "赣江"
-    }
-  },
-  {
-    "id": "INVENTIONS_139",
-    "category": "inventions",
-    "question": {
-      "zh": "「炼铁技术」的英文是什么？",
-      "en": "What is \"Iron Smelting\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Iron Smelting",
-      "en": "炼铁技术"
-    }
-  },
-  {
-    "id": "DISHES_056",
-    "category": "dishes",
-    "question": {
-      "zh": "「粽子」的英文是什么？",
-      "en": "What is \"Zongzi\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Zongzi",
-      "en": "粽子"
-    }
-  },
-  {
-    "id": "UNESCO_SITES_021",
-    "category": "unesco_sites",
-    "question": {
-      "zh": "「长城」的英文是什么？",
-      "en": "What is \"Great Wall\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Great Wall",
-      "en": "长城"
-    }
-  },
-  {
-    "id": "INVENTIONS_133",
-    "category": "inventions",
-    "question": {
-      "zh": "「伞」的英文是什么？",
-      "en": "What is \"Umbrella\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Umbrella",
-      "en": "伞"
-    }
-  },
-  {
-    "id": "INVENTIONS_140",
-    "category": "inventions",
-    "question": {
-      "zh": "「南向车」的英文是什么？",
-      "en": "What is \"South‑Pointing Chariot\" in Chinese?"
-    },
-    "answer": {
-      "zh": "South‑Pointing Chariot",
-      "en": "南向车"
-    }
-  },
-  {
-    "id": "INVENTIONS_136",
-    "category": "inventions",
-    "question": {
-      "zh": "「丝绸」的英文是什么？",
-      "en": "What is \"Silk\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Silk",
-      "en": "丝绸"
-    }
-  },
-  {
-    "id": "RIVERS_157",
-    "category": "rivers",
-    "question": {
-      "zh": "「汾河」的英文是什么？",
-      "en": "What is \"Fen River\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Fen River",
-      "en": "汾河"
-    }
-  },
-  {
-    "id": "MOUNTAINS_178",
-    "category": "mountains",
-    "question": {
-      "zh": "「太白山」的英文是什么？",
-      "en": "What is \"Mount Taibai\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Mount Taibai",
-      "en": "太白山"
-    }
-  },
-  {
-    "id": "UNESCO_SITES_032",
-    "category": "unesco_sites",
-    "question": {
-      "zh": "「大足石刻」的英文是什么？",
-      "en": "What is \"Dazu Rock Carvings\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Dazu Rock Carvings",
-      "en": "大足石刻"
-    }
-  },
-  {
-    "id": "TEA_071",
-    "category": "tea",
-    "question": {
-      "zh": "「白毫银针」的英文是什么？",
-      "en": "What is \"Silver Needle White Tea\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Silver Needle White Tea",
-      "en": "白毫银针"
-    }
-  },
-  {
-    "id": "DISHES_049",
-    "category": "dishes",
-    "question": {
-      "zh": "「东坡肉」的英文是什么？",
-      "en": "What is \"Dongpo Pork\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Dongpo Pork",
-      "en": "东坡肉"
-    }
-  },
-  {
-    "id": "ANCIENT_CITIES_019",
-    "category": "ancient_cities",
-    "question": {
-      "zh": "「苏州」的英文是什么？",
-      "en": "What is \"Suzhou\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Suzhou",
-      "en": "苏州"
-    }
-  },
-  {
-    "id": "FESTIVALS_087",
-    "category": "festivals",
-    "question": {
-      "zh": "「重阳节」的英文是什么？",
-      "en": "What is \"Double Ninth Festival\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Double Ninth Festival",
-      "en": "重阳节"
-    }
-  },
-  {
-    "id": "INVENTIONS_132",
-    "category": "inventions",
-    "question": {
-      "zh": "「茶」的英文是什么？",
-      "en": "What is \"Tea\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Tea",
-      "en": "茶"
-    }
-  },
-  {
-    "id": "ANCIENT_CITIES_014",
-    "category": "ancient_cities",
-    "question": {
-      "zh": "「扬州」的英文是什么？",
-      "en": "What is \"Yangzhou\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Yangzhou",
-      "en": "扬州"
-    }
-  },
-  {
-    "id": "UNESCO_SITES_023",
-    "category": "unesco_sites",
-    "question": {
-      "zh": "「天坛」的英文是什么？",
-      "en": "What is \"Temple of Heaven\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Temple of Heaven",
-      "en": "天坛"
-    }
-  },
-  {
-    "id": "FESTIVALS_097",
-    "category": "festivals",
-    "question": {
-      "zh": "「小暑」的英文是什么？",
-      "en": "What is \"Minor Heat\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Minor Heat",
-      "en": "小暑"
-    }
-  },
-  {
-    "id": "MOUNTAINS_179",
-    "category": "mountains",
-    "question": {
-      "zh": "「天台山」的英文是什么？",
-      "en": "What is \"Mount Tiantai\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Mount Tiantai",
-      "en": "天台山"
-    }
-  },
-  {
-    "id": "FESTIVALS_098",
-    "category": "festivals",
-    "question": {
-      "zh": "「大暑」的英文是什么？",
-      "en": "What is \"Great Heat\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Great Heat",
-      "en": "大暑"
-    }
-  },
-  {
-    "id": "UNESCO_SITES_027",
-    "category": "unesco_sites",
-    "question": {
-      "zh": "「布达拉宫」的英文是什么？",
-      "en": "What is \"Potala Palace\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Potala Palace",
-      "en": "布达拉宫"
-    }
-  },
-  {
-    "id": "ANCIENT_CITIES_005",
-    "category": "ancient_cities",
-    "question": {
-      "zh": "「开封」的英文是什么？",
-      "en": "What is \"Kaifeng\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Kaifeng",
-      "en": "开封"
-    }
-  },
-  {
-    "id": "UNESCO_SITES_033",
-    "category": "unesco_sites",
-    "question": {
-      "zh": "「峨眉山与乐山大佛」的英文是什么？",
-      "en": "What is \"Mount Emei and Leshan Giant Buddha\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Mount Emei and Leshan Giant Buddha",
-      "en": "峨眉山与乐山大佛"
-    }
-  },
-  {
-    "id": "PHILOSOPHERS_105",
-    "category": "philosophers",
-    "question": {
-      "zh": "「荀子」的英文是什么？",
-      "en": "What is \"Xunzi\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Xunzi",
-      "en": "荀子"
-    }
-  },
-  {
-    "id": "FESTIVALS_095",
-    "category": "festivals",
-    "question": {
-      "zh": "「雨水」的英文是什么？",
-      "en": "What is \"Rain Water\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Rain Water",
-      "en": "雨水"
-    }
-  },
-  {
-    "id": "PHILOSOPHERS_109",
-    "category": "philosophers",
-    "question": {
-      "zh": "「董仲舒」的英文是什么？",
-      "en": "What is \"Dong Zhongshu\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Dong Zhongshu",
-      "en": "董仲舒"
-    }
-  },
-  {
-    "id": "FESTIVALS_090",
-    "category": "festivals",
-    "question": {
-      "zh": "「冬至」的英文是什么？",
-      "en": "What is \"Winter Solstice\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Winter Solstice",
-      "en": "冬至"
-    }
-  },
-  {
-    "id": "RIVERS_155",
-    "category": "rivers",
-    "question": {
-      "zh": "「松花江」的英文是什么？",
-      "en": "What is \"Songhua River\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Songhua River",
-      "en": "松花江"
-    }
-  },
-  {
-    "id": "TEA_068",
-    "category": "tea",
-    "question": {
-      "zh": "「正山小种」的英文是什么？",
-      "en": "What is \"Lapsang Souchong Tea\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Lapsang Souchong Tea",
-      "en": "正山小种"
-    }
-  },
-  {
-    "id": "PHILOSOPHERS_117",
-    "category": "philosophers",
-    "question": {
-      "zh": "「刘歆」的英文是什么？",
-      "en": "What is \"Liu Xin\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Liu Xin",
-      "en": "刘歆"
-    }
-  },
-  {
-    "id": "RIVERS_144",
-    "category": "rivers",
-    "question": {
-      "zh": "「淮河」的英文是什么？",
-      "en": "What is \"Huai River\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Huai River",
-      "en": "淮河"
-    }
-  },
-  {
-    "id": "INSTRUMENTS_189",
+    "id": "MUS_034",
     "category": "instruments",
     "question": {
-      "zh": "「阮」的英文是什么？",
-      "en": "What is \"Ruan\" in Chinese?"
+      "zh": "笙因可同时吹出多音，被称为中国古代的“___”，填空。",
+      "en": "The sheng can produce multiple notes at once, earning it the nickname ‘the ancient Chinese ___.’ Fill in the blank."
     },
     "answer": {
-      "zh": "Ruan",
-      "en": "阮"
+      "zh": "和声管风琴",
+      "en": "mouth-organ / pipe-organ"
     }
   },
   {
-    "id": "RIVERS_141",
-    "category": "rivers",
-    "question": {
-      "zh": "「长江」的英文是什么？",
-      "en": "What is \"Yangtze River\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Yangtze River",
-      "en": "长江"
-    }
-  },
-  {
-    "id": "UNESCO_SITES_038",
-    "category": "unesco_sites",
-    "question": {
-      "zh": "「云冈石窟」的英文是什么？",
-      "en": "What is \"Yungang Grottoes\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Yungang Grottoes",
-      "en": "云冈石窟"
-    }
-  },
-  {
-    "id": "UNESCO_SITES_031",
-    "category": "unesco_sites",
-    "question": {
-      "zh": "「武夷山」的英文是什么？",
-      "en": "What is \"Mount Wuyi\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Mount Wuyi",
-      "en": "武夷山"
-    }
-  },
-  {
-    "id": "PHILOSOPHERS_101",
-    "category": "philosophers",
-    "question": {
-      "zh": "「孔子」的英文是什么？",
-      "en": "What is \"Confucius\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Confucius",
-      "en": "孔子"
-    }
-  },
-  {
-    "id": "UNESCO_SITES_026",
-    "category": "unesco_sites",
-    "question": {
-      "zh": "「莫高窟」的英文是什么？",
-      "en": "What is \"Mogao Caves\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Mogao Caves",
-      "en": "莫高窟"
-    }
-  },
-  {
-    "id": "DISHES_052",
-    "category": "dishes",
-    "question": {
-      "zh": "「剁椒鱼头」的英文是什么？",
-      "en": "What is \"Fish Head with Chopped Chili\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Fish Head with Chopped Chili",
-      "en": "剁椒鱼头"
-    }
-  },
-  {
-    "id": "INSTRUMENTS_196",
+    "id": "MUS_035",
     "category": "instruments",
     "question": {
-      "zh": "「编钟」的英文是什么？",
-      "en": "What is \"Bianzhong\" in Chinese?"
+      "zh": "新疆传统乐器“热瓦普”多用于哪支民族的十二木卡姆？",
+      "en": "The rewap is central to the Twelve Muqam music of which ethnic group in Xinjiang?"
     },
     "answer": {
-      "zh": "Bianzhong",
-      "en": "编钟"
+      "zh": "维吾尔族",
+      "en": "The Uyghur people"
     }
   },
+
   {
-    "id": "ANCIENT_CITIES_006",
-    "category": "ancient_cities",
+    "id": "LIT_036",
+    "category": "philosophy",
     "question": {
-      "zh": "「杭州」的英文是什么？",
-      "en": "What is \"Hangzhou\" in Chinese?"
+      "zh": "《论语》记录了哪位思想家的言行？",
+      "en": "The Analects compile the sayings of which Chinese philosopher?"
     },
     "answer": {
-      "zh": "Hangzhou",
-      "en": "杭州"
+      "zh": "孔子",
+      "en": "Confucius"
     }
   },
   {
-    "id": "PHILOSOPHERS_103",
-    "category": "philosophers",
+    "id": "LIT_037",
+    "category": "philosophy",
     "question": {
-      "zh": "「庄子」的英文是什么？",
-      "en": "What is \"Zhuangzi\" in Chinese?"
+      "zh": "道家经典《道德经》提出“上善若水”的理念，作者是谁？",
+      "en": "Which sage wrote the Taoist classic Tao Te Ching, advocating that ‘supreme goodness is like water’?"
     },
     "answer": {
-      "zh": "Zhuangzi",
-      "en": "庄子"
+      "zh": "老子",
+      "en": "Laozi"
     }
   },
   {
-    "id": "INVENTIONS_138",
-    "category": "inventions",
+    "id": "LIT_038",
+    "category": "literature",
     "question": {
-      "zh": "「滚水轮船」的英文是什么？",
-      "en": "What is \"Paddle‑Wheel Boat\" in Chinese?"
+      "zh": "被誉为“四大名著”之首，描写宋江等梁山好汉的是哪部小说？",
+      "en": "Which first of China’s Four Great Classical Novels depicts Song Jiang and the Outlaws of the Marsh?"
     },
     "answer": {
-      "zh": "Paddle‑Wheel Boat",
-      "en": "滚水轮船"
+      "zh": "《水浒传》",
+      "en": "Water Margin (Outlaws of the Marsh)"
     }
   },
+
   {
-    "id": "ANCIENT_CITIES_013",
-    "category": "ancient_cities",
+    "id": "MIS_039",
+    "category": "misc",
     "question": {
-      "zh": "「咸阳」的英文是什么？",
-      "en": "What is \"Xianyang\" in Chinese?"
+      "zh": "中国传统舞狮表演中，通常用什么颜色的“毛”代表年轻活力的狮子？",
+      "en": "In traditional Chinese lion dance, which fur color typically symbolizes a young, energetic lion?"
     },
     "answer": {
-      "zh": "Xianyang",
-      "en": "咸阳"
+      "zh": "黄色",
+      "en": "Yellow"
     }
   },
   {
-    "id": "RIVERS_159",
-    "category": "rivers",
+    "id": "MIS_040",
+    "category": "misc",
     "question": {
-      "zh": "「潇水」的英文是什么？",
-      "en": "What is \"Xiao River\" in Chinese?"
+      "zh": "“福、禄、寿”三星象征吉祥，它们分别代表什么祝愿？",
+      "en": "The three deities Fu, Lu, and Shou symbolize which blessings respectively?"
     },
     "answer": {
-      "zh": "Xiao River",
-      "en": "潇水"
-    }
-  },
-  {
-    "id": "PHILOSOPHERS_104",
-    "category": "philosophers",
-    "question": {
-      "zh": "「孟子」的英文是什么？",
-      "en": "What is \"Mencius\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Mencius",
-      "en": "孟子"
-    }
-  },
-  {
-    "id": "ANCIENT_CITIES_011",
-    "category": "ancient_cities",
-    "question": {
-      "zh": "「大同」的英文是什么？",
-      "en": "What is \"Datong\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Datong",
-      "en": "大同"
-    }
-  },
-  {
-    "id": "TEA_076",
-    "category": "tea",
-    "question": {
-      "zh": "「恩施玉露」的英文是什么？",
-      "en": "What is \"Enshi Yulu Tea\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Enshi Yulu Tea",
-      "en": "恩施玉露"
-    }
-  },
-  {
-    "id": "MOUNTAINS_175",
-    "category": "mountains",
-    "question": {
-      "zh": "「贡嘎山」的英文是什么？",
-      "en": "What is \"Mount Gongga\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Mount Gongga",
-      "en": "贡嘎山"
-    }
-  },
-  {
-    "id": "INVENTIONS_131",
-    "category": "inventions",
-    "question": {
-      "zh": "「算盘」的英文是什么？",
-      "en": "What is \"Abacus\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Abacus",
-      "en": "算盘"
-    }
-  },
-  {
-    "id": "UNESCO_SITES_034",
-    "category": "unesco_sites",
-    "question": {
-      "zh": "「庐山」的英文是什么？",
-      "en": "What is \"Mount Lushan\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Mount Lushan",
-      "en": "庐山"
-    }
-  },
-  {
-    "id": "DISHES_053",
-    "category": "dishes",
-    "question": {
-      "zh": "「臭豆腐」的英文是什么？",
-      "en": "What is \"Stinky Tofu\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Stinky Tofu",
-      "en": "臭豆腐"
-    }
-  },
-  {
-    "id": "RIVERS_151",
-    "category": "rivers",
-    "question": {
-      "zh": "「闽江」的英文是什么？",
-      "en": "What is \"Min River\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Min River",
-      "en": "闽江"
-    }
-  },
-  {
-    "id": "RIVERS_148",
-    "category": "rivers",
-    "question": {
-      "zh": "「鸭绿江」的英文是什么？",
-      "en": "What is \"Yalu River\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Yalu River",
-      "en": "鸭绿江"
-    }
-  },
-  {
-    "id": "ANCIENT_CITIES_003",
-    "category": "ancient_cities",
-    "question": {
-      "zh": "「洛阳」的英文是什么？",
-      "en": "What is \"Luoyang\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Luoyang",
-      "en": "洛阳"
-    }
-  },
-  {
-    "id": "UNESCO_SITES_035",
-    "category": "unesco_sites",
-    "question": {
-      "zh": "「福建土楼」的英文是什么？",
-      "en": "What is \"Fujian Tulou\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Fujian Tulou",
-      "en": "福建土楼"
-    }
-  },
-  {
-    "id": "RIVERS_143",
-    "category": "rivers",
-    "question": {
-      "zh": "「珠江」的英文是什么？",
-      "en": "What is \"Pearl River\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Pearl River",
-      "en": "珠江"
-    }
-  },
-  {
-    "id": "INSTRUMENTS_191",
-    "category": "instruments",
-    "question": {
-      "zh": "「马头琴」的英文是什么？",
-      "en": "What is \"Morin Khuur\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Morin Khuur",
-      "en": "马头琴"
-    }
-  },
-  {
-    "id": "FESTIVALS_085",
-    "category": "festivals",
-    "question": {
-      "zh": "「七夕节」的英文是什么？",
-      "en": "What is \"Qixi Festival\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Qixi Festival",
-      "en": "七夕节"
-    }
-  },
-  {
-    "id": "DISHES_054",
-    "category": "dishes",
-    "question": {
-      "zh": "「馄饨」的英文是什么？",
-      "en": "What is \"Wontons\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Wontons",
-      "en": "馄饨"
-    }
-  },
-  {
-    "id": "DISHES_055",
-    "category": "dishes",
-    "question": {
-      "zh": "「月饼」的英文是什么？",
-      "en": "What is \"Mooncake\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Mooncake",
-      "en": "月饼"
-    }
-  },
-  {
-    "id": "PHILOSOPHERS_106",
-    "category": "philosophers",
-    "question": {
-      "zh": "「韩非子」的英文是什么？",
-      "en": "What is \"Han Feizi\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Han Feizi",
-      "en": "韩非子"
-    }
-  },
-  {
-    "id": "MOUNTAINS_161",
-    "category": "mountains",
-    "question": {
-      "zh": "「泰山」的英文是什么？",
-      "en": "What is \"Mount Tai\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Mount Tai",
-      "en": "泰山"
-    }
-  },
-  {
-    "id": "INSTRUMENTS_198",
-    "category": "instruments",
-    "question": {
-      "zh": "「排鼓」的英文是什么？",
-      "en": "What is \"Paigu\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Paigu",
-      "en": "排鼓"
-    }
-  },
-  {
-    "id": "INSTRUMENTS_197",
-    "category": "instruments",
-    "question": {
-      "zh": "「云锣」的英文是什么？",
-      "en": "What is \"Yunluo\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Yunluo",
-      "en": "云锣"
-    }
-  },
-  {
-    "id": "DISHES_044",
-    "category": "dishes",
-    "question": {
-      "zh": "「兰州牛肉面」的英文是什么？",
-      "en": "What is \"Lanzhou Beef Noodles\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Lanzhou Beef Noodles",
-      "en": "兰州牛肉面"
-    }
-  },
-  {
-    "id": "FESTIVALS_093",
-    "category": "festivals",
-    "question": {
-      "zh": "「花朝节」的英文是什么？",
-      "en": "What is \"Flower Festival\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Flower Festival",
-      "en": "花朝节"
-    }
-  },
-  {
-    "id": "INSTRUMENTS_185",
-    "category": "instruments",
-    "question": {
-      "zh": "「笙」的英文是什么？",
-      "en": "What is \"Sheng\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Sheng",
-      "en": "笙"
-    }
-  },
-  {
-    "id": "FESTIVALS_100",
-    "category": "festivals",
-    "question": {
-      "zh": "「处暑」的英文是什么？",
-      "en": "What is \"End of Heat\" in Chinese?"
-    },
-    "answer": {
-      "zh": "End of Heat",
-      "en": "处暑"
-    }
-  },
-  {
-    "id": "RIVERS_142",
-    "category": "rivers",
-    "question": {
-      "zh": "「黄河」的英文是什么？",
-      "en": "What is \"Yellow River\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Yellow River",
-      "en": "黄河"
-    }
-  },
-  {
-    "id": "FESTIVALS_084",
-    "category": "festivals",
-    "question": {
-      "zh": "「端午节」的英文是什么？",
-      "en": "What is \"Dragon Boat Festival\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Dragon Boat Festival",
-      "en": "端午节"
-    }
-  },
-  {
-    "id": "INSTRUMENTS_193",
-    "category": "instruments",
-    "question": {
-      "zh": "「埙」的英文是什么？",
-      "en": "What is \"Xun\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Xun",
-      "en": "埙"
-    }
-  },
-  {
-    "id": "TEA_080",
-    "category": "tea",
-    "question": {
-      "zh": "「古丈毛尖」的英文是什么？",
-      "en": "What is \"Guzhang Maojian Tea\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Guzhang Maojian Tea",
-      "en": "古丈毛尖"
-    }
-  },
-  {
-    "id": "PHILOSOPHERS_110",
-    "category": "philosophers",
-    "question": {
-      "zh": "「朱熹」的英文是什么？",
-      "en": "What is \"Zhu Xi\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Zhu Xi",
-      "en": "朱熹"
-    }
-  },
-  {
-    "id": "INVENTIONS_130",
-    "category": "inventions",
-    "question": {
-      "zh": "「瓷器」的英文是什么？",
-      "en": "What is \"Porcelain\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Porcelain",
-      "en": "瓷器"
-    }
-  },
-  {
-    "id": "ANCIENT_CITIES_002",
-    "category": "ancient_cities",
-    "question": {
-      "zh": "「西安」的英文是什么？",
-      "en": "What is \"Xi'an\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Xi'an",
-      "en": "西安"
-    }
-  },
-  {
-    "id": "TEA_079",
-    "category": "tea",
-    "question": {
-      "zh": "「敬亭绿雪」的英文是什么？",
-      "en": "What is \"Jingting Green Snow Tea\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Jingting Green Snow Tea",
-      "en": "敬亭绿雪"
-    }
-  },
-  {
-    "id": "RIVERS_154",
-    "category": "rivers",
-    "question": {
-      "zh": "「嘉陵江」的英文是什么？",
-      "en": "What is \"Jialing River\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Jialing River",
-      "en": "嘉陵江"
-    }
-  },
-  {
-    "id": "MOUNTAINS_167",
-    "category": "mountains",
-    "question": {
-      "zh": "「武当山」的英文是什么？",
-      "en": "What is \"Wudang Mountains\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Wudang Mountains",
-      "en": "武当山"
-    }
-  },
-  {
-    "id": "RIVERS_150",
-    "category": "rivers",
-    "question": {
-      "zh": "「汉江」的英文是什么？",
-      "en": "What is \"Han River\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Han River",
-      "en": "汉江"
-    }
-  },
-  {
-    "id": "RIVERS_149",
-    "category": "rivers",
-    "question": {
-      "zh": "「塔里木河」的英文是什么？",
-      "en": "What is \"Tarim River\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Tarim River",
-      "en": "塔里木河"
-    }
-  },
-  {
-    "id": "MOUNTAINS_173",
-    "category": "mountains",
-    "question": {
-      "zh": "「珠穆朗玛峰」的英文是什么？",
-      "en": "What is \"Mount Everest\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Mount Everest",
-      "en": "珠穆朗玛峰"
-    }
-  },
-  {
-    "id": "INVENTIONS_127",
-    "category": "inventions",
-    "question": {
-      "zh": "「链式水车」的英文是什么？",
-      "en": "What is \"Chain Pump\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Chain Pump",
-      "en": "链式水车"
-    }
-  },
-  {
-    "id": "DISHES_042",
-    "category": "dishes",
-    "question": {
-      "zh": "「麻婆豆腐」的英文是什么？",
-      "en": "What is \"Mapo Tofu\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Mapo Tofu",
-      "en": "麻婆豆腐"
-    }
-  },
-  {
-    "id": "RIVERS_156",
-    "category": "rivers",
-    "question": {
-      "zh": "「清江」的英文是什么？",
-      "en": "What is \"Qing River\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Qing River",
-      "en": "清江"
-    }
-  },
-  {
-    "id": "PHILOSOPHERS_116",
-    "category": "philosophers",
-    "question": {
-      "zh": "「张载」的英文是什么？",
-      "en": "What is \"Zhang Zai\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Zhang Zai",
-      "en": "张载"
-    }
-  },
-  {
-    "id": "TEA_067",
-    "category": "tea",
-    "question": {
-      "zh": "「黄山毛峰」的英文是什么？",
-      "en": "What is \"Huangshan Maofeng Tea\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Huangshan Maofeng Tea",
-      "en": "黄山毛峰"
-    }
-  },
-  {
-    "id": "DISHES_060",
-    "category": "dishes",
-    "question": {
-      "zh": "「糖醋里脊」的英文是什么？",
-      "en": "What is \"Sweet and Sour Pork\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Sweet and Sour Pork",
-      "en": "糖醋里脊"
-    }
-  },
-  {
-    "id": "ANCIENT_CITIES_004",
-    "category": "ancient_cities",
-    "question": {
-      "zh": "「南京」的英文是什么？",
-      "en": "What is \"Nanjing\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Nanjing",
-      "en": "南京"
-    }
-  },
-  {
-    "id": "UNESCO_SITES_028",
-    "category": "unesco_sites",
-    "question": {
-      "zh": "「泰山」的英文是什么？",
-      "en": "What is \"Mount Tai\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Mount Tai",
-      "en": "泰山"
-    }
-  },
-  {
-    "id": "TEA_078",
-    "category": "tea",
-    "question": {
-      "zh": "「武夷肉桂」的英文是什么？",
-      "en": "What is \"Wuyi Cinnamon Tea\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Wuyi Cinnamon Tea",
-      "en": "武夷肉桂"
-    }
-  },
-  {
-    "id": "MOUNTAINS_168",
-    "category": "mountains",
-    "question": {
-      "zh": "「普陀山」的英文是什么？",
-      "en": "What is \"Mount Putuo\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Mount Putuo",
-      "en": "普陀山"
-    }
-  },
-  {
-    "id": "PHILOSOPHERS_107",
-    "category": "philosophers",
-    "question": {
-      "zh": "「墨子」的英文是什么？",
-      "en": "What is \"Mozi\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Mozi",
-      "en": "墨子"
-    }
-  },
-  {
-    "id": "PHILOSOPHERS_118",
-    "category": "philosophers",
-    "question": {
-      "zh": "「欧阳修」的英文是什么？",
-      "en": "What is \"Ouyang Xiu\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Ouyang Xiu",
-      "en": "欧阳修"
-    }
-  },
-  {
-    "id": "ANCIENT_CITIES_008",
-    "category": "ancient_cities",
-    "question": {
-      "zh": "「安阳」的英文是什么？",
-      "en": "What is \"Anyang\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Anyang",
-      "en": "安阳"
-    }
-  },
-  {
-    "id": "DISHES_041",
-    "category": "dishes",
-    "question": {
-      "zh": "「北京烤鸭」的英文是什么？",
-      "en": "What is \"Peking Duck\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Peking Duck",
-      "en": "北京烤鸭"
-    }
-  },
-  {
-    "id": "INVENTIONS_123",
-    "category": "inventions",
-    "question": {
-      "zh": "「造纸术」的英文是什么？",
-      "en": "What is \"Papermaking\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Papermaking",
-      "en": "造纸术"
-    }
-  },
-  {
-    "id": "TEA_074",
-    "category": "tea",
-    "question": {
-      "zh": "「蒙顶甘露」的英文是什么？",
-      "en": "What is \"Mengding Sweet Dew Tea\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Mengding Sweet Dew Tea",
-      "en": "蒙顶甘露"
-    }
-  },
-  {
-    "id": "UNESCO_SITES_040",
-    "category": "unesco_sites",
-    "question": {
-      "zh": "「曲阜孔庙」的英文是什么？",
-      "en": "What is \"Temple and Cemetery of Confucius and Kong Family Mansion in Qufu\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Temple and Cemetery of Confucius and Kong Family Mansion in Qufu",
-      "en": "曲阜孔庙"
-    }
-  },
-  {
-    "id": "INSTRUMENTS_190",
-    "category": "instruments",
-    "question": {
-      "zh": "「葫芦丝」的英文是什么？",
-      "en": "What is \"Hulusi\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Hulusi",
-      "en": "葫芦丝"
-    }
-  },
-  {
-    "id": "DISHES_045",
-    "category": "dishes",
-    "question": {
-      "zh": "「重庆火锅」的英文是什么？",
-      "en": "What is \"Chongqing Hotpot\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Chongqing Hotpot",
-      "en": "重庆火锅"
-    }
-  },
-  {
-    "id": "DISHES_048",
-    "category": "dishes",
-    "question": {
-      "zh": "「粤式早茶」的英文是什么？",
-      "en": "What is \"Cantonese Dim Sum\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Cantonese Dim Sum",
-      "en": "粤式早茶"
-    }
-  },
-  {
-    "id": "MOUNTAINS_164",
-    "category": "mountains",
-    "question": {
-      "zh": "「恒山(北岳)」的英文是什么？",
-      "en": "What is \"Mount Heng (Shanxi)\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Mount Heng (Shanxi)",
-      "en": "恒山(北岳)"
-    }
-  },
-  {
-    "id": "MOUNTAINS_163",
-    "category": "mountains",
-    "question": {
-      "zh": "「衡山(南岳)」的英文是什么？",
-      "en": "What is \"Mount Heng (Hunan)\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Mount Heng (Hunan)",
-      "en": "衡山(南岳)"
-    }
-  },
-  {
-    "id": "INSTRUMENTS_199",
-    "category": "instruments",
-    "question": {
-      "zh": "「笙管」的英文是什么？",
-      "en": "What is \"Shengguan\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Shengguan",
-      "en": "笙管"
-    }
-  },
-  {
-    "id": "FESTIVALS_089",
-    "category": "festivals",
-    "question": {
-      "zh": "「小年」的英文是什么？",
-      "en": "What is \"Little New Year\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Little New Year",
-      "en": "小年"
-    }
-  },
-  {
-    "id": "INVENTIONS_128",
-    "category": "inventions",
-    "question": {
-      "zh": "「独轮车」的英文是什么？",
-      "en": "What is \"Wheelbarrow\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Wheelbarrow",
-      "en": "独轮车"
-    }
-  },
-  {
-    "id": "PHILOSOPHERS_108",
-    "category": "philosophers",
-    "question": {
-      "zh": "「孙武」的英文是什么？",
-      "en": "What is \"Sun Tzu\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Sun Tzu",
-      "en": "孙武"
-    }
-  },
-  {
-    "id": "TEA_073",
-    "category": "tea",
-    "question": {
-      "zh": "「安化黑茶」的英文是什么？",
-      "en": "What is \"Anhua Dark Tea\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Anhua Dark Tea",
-      "en": "安化黑茶"
-    }
-  },
-  {
-    "id": "MOUNTAINS_180",
-    "category": "mountains",
-    "question": {
-      "zh": "「五台山」的英文是什么？",
-      "en": "What is \"Mount Wutai\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Mount Wutai",
-      "en": "五台山"
-    }
-  },
-  {
-    "id": "ANCIENT_CITIES_001",
-    "category": "ancient_cities",
-    "question": {
-      "zh": "「北京」的英文是什么？",
-      "en": "What is \"Beijing\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Beijing",
-      "en": "北京"
-    }
-  },
-  {
-    "id": "DISHES_057",
-    "category": "dishes",
-    "question": {
-      "zh": "「锅包肉」的英文是什么？",
-      "en": "What is \"Guo Bao Rou\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Guo Bao Rou",
-      "en": "锅包肉"
-    }
-  },
-  {
-    "id": "TEA_066",
-    "category": "tea",
-    "question": {
-      "zh": "「祁门红茶」的英文是什么？",
-      "en": "What is \"Keemun Black Tea\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Keemun Black Tea",
-      "en": "祁门红茶"
-    }
-  },
-  {
-    "id": "FESTIVALS_082",
-    "category": "festivals",
-    "question": {
-      "zh": "「元宵节」的英文是什么？",
-      "en": "What is \"Lantern Festival\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Lantern Festival",
-      "en": "元宵节"
-    }
-  },
-  {
-    "id": "FESTIVALS_099",
-    "category": "festivals",
-    "question": {
-      "zh": "「惊蛰」的英文是什么？",
-      "en": "What is \"Awakening of Insects\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Awakening of Insects",
-      "en": "惊蛰"
-    }
-  },
-  {
-    "id": "UNESCO_SITES_039",
-    "category": "unesco_sites",
-    "question": {
-      "zh": "「皖南古村落」的英文是什么？",
-      "en": "What is \"Ancient Villages in Southern Anhui\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Ancient Villages in Southern Anhui",
-      "en": "皖南古村落"
-    }
-  },
-  {
-    "id": "ANCIENT_CITIES_016",
-    "category": "ancient_cities",
-    "question": {
-      "zh": "「荆州」的英文是什么？",
-      "en": "What is \"Jingzhou\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Jingzhou",
-      "en": "荆州"
-    }
-  },
-  {
-    "id": "MOUNTAINS_166",
-    "category": "mountains",
-    "question": {
-      "zh": "「峨眉山」的英文是什么？",
-      "en": "What is \"Mount Emei\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Mount Emei",
-      "en": "峨眉山"
-    }
-  },
-  {
-    "id": "DISHES_047",
-    "category": "dishes",
-    "question": {
-      "zh": "「桂林米粉」的英文是什么？",
-      "en": "What is \"Guilin Rice Noodles\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Guilin Rice Noodles",
-      "en": "桂林米粉"
-    }
-  },
-  {
-    "id": "UNESCO_SITES_030",
-    "category": "unesco_sites",
-    "question": {
-      "zh": "「黄山」的英文是什么？",
-      "en": "What is \"Mount Huangshan\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Mount Huangshan",
-      "en": "黄山"
-    }
-  },
-  {
-    "id": "INVENTIONS_129",
-    "category": "inventions",
-    "question": {
-      "zh": "「风筝」的英文是什么？",
-      "en": "What is \"Kite\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Kite",
-      "en": "风筝"
-    }
-  },
-  {
-    "id": "MOUNTAINS_176",
-    "category": "mountains",
-    "question": {
-      "zh": "「乔戈里峰」的英文是什么？",
-      "en": "What is \"K2\" in Chinese?"
-    },
-    "answer": {
-      "zh": "K2",
-      "en": "乔戈里峰"
-    }
-  },
-  {
-    "id": "INSTRUMENTS_181",
-    "category": "instruments",
-    "question": {
-      "zh": "「二胡」的英文是什么？",
-      "en": "What is \"Erhu\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Erhu",
-      "en": "二胡"
-    }
-  },
-  {
-    "id": "TEA_065",
-    "category": "tea",
-    "question": {
-      "zh": "「大红袍」的英文是什么？",
-      "en": "What is \"Dahongpao Tea\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Dahongpao Tea",
-      "en": "大红袍"
-    }
-  },
-  {
-    "id": "TEA_063",
-    "category": "tea",
-    "question": {
-      "zh": "「铁观音」的英文是什么？",
-      "en": "What is \"Tieguanyin Tea\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Tieguanyin Tea",
-      "en": "铁观音"
-    }
-  },
-  {
-    "id": "RIVERS_153",
-    "category": "rivers",
-    "question": {
-      "zh": "「湘江」的英文是什么？",
-      "en": "What is \"Xiang River\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Xiang River",
-      "en": "湘江"
-    }
-  },
-  {
-    "id": "MOUNTAINS_169",
-    "category": "mountains",
-    "question": {
-      "zh": "「九华山」的英文是什么？",
-      "en": "What is \"Mount Jiuhua\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Mount Jiuhua",
-      "en": "九华山"
-    }
-  },
-  {
-    "id": "ANCIENT_CITIES_009",
-    "category": "ancient_cities",
-    "question": {
-      "zh": "「邯郸」的英文是什么？",
-      "en": "What is \"Handan\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Handan",
-      "en": "邯郸"
-    }
-  },
-  {
-    "id": "RIVERS_146",
-    "category": "rivers",
-    "question": {
-      "zh": "「怒江」的英文是什么？",
-      "en": "What is \"Nu River\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Nu River",
-      "en": "怒江"
-    }
-  },
-  {
-    "id": "ANCIENT_CITIES_018",
-    "category": "ancient_cities",
-    "question": {
-      "zh": "「桂林」的英文是什么？",
-      "en": "What is \"Guilin\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Guilin",
-      "en": "桂林"
-    }
-  },
-  {
-    "id": "FESTIVALS_091",
-    "category": "festivals",
-    "question": {
-      "zh": "「寒食节」的英文是什么？",
-      "en": "What is \"Cold Food Festival\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Cold Food Festival",
-      "en": "寒食节"
-    }
-  },
-  {
-    "id": "DISHES_051",
-    "category": "dishes",
-    "question": {
-      "zh": "「Biangbiang面」的英文是什么？",
-      "en": "What is \"Biangbiang Noodles\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Biangbiang Noodles",
-      "en": "Biangbiang面"
-    }
-  },
-  {
-    "id": "MOUNTAINS_171",
-    "category": "mountains",
-    "question": {
-      "zh": "「庐山」的英文是什么？",
-      "en": "What is \"Mount Lushan\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Mount Lushan",
-      "en": "庐山"
-    }
-  },
-  {
-    "id": "ANCIENT_CITIES_007",
-    "category": "ancient_cities",
-    "question": {
-      "zh": "「成都」的英文是什么？",
-      "en": "What is \"Chengdu\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Chengdu",
-      "en": "成都"
-    }
-  },
-  {
-    "id": "INVENTIONS_121",
-    "category": "inventions",
-    "question": {
-      "zh": "「指南针」的英文是什么？",
-      "en": "What is \"Compass\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Compass",
-      "en": "指南针"
-    }
-  },
-  {
-    "id": "ANCIENT_CITIES_020",
-    "category": "ancient_cities",
-    "question": {
-      "zh": "「兰州」的英文是什么？",
-      "en": "What is \"Lanzhou\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Lanzhou",
-      "en": "兰州"
-    }
-  },
-  {
-    "id": "PHILOSOPHERS_120",
-    "category": "philosophers",
-    "question": {
-      "zh": "「胡适」的英文是什么？",
-      "en": "What is \"Hu Shi\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Hu Shi",
-      "en": "胡适"
-    }
-  },
-  {
-    "id": "PHILOSOPHERS_111",
-    "category": "philosophers",
-    "question": {
-      "zh": "「王阳明」的英文是什么？",
-      "en": "What is \"Wang Yangming\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Wang Yangming",
-      "en": "王阳明"
-    }
-  },
-  {
-    "id": "MOUNTAINS_165",
-    "category": "mountains",
-    "question": {
-      "zh": "「嵩山」的英文是什么？",
-      "en": "What is \"Mount Song\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Mount Song",
-      "en": "嵩山"
-    }
-  },
-  {
-    "id": "DISHES_058",
-    "category": "dishes",
-    "question": {
-      "zh": "「椰子鸡」的英文是什么？",
-      "en": "What is \"Hainan Coconut Chicken\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Hainan Coconut Chicken",
-      "en": "椰子鸡"
-    }
-  },
-  {
-    "id": "PHILOSOPHERS_102",
-    "category": "philosophers",
-    "question": {
-      "zh": "「老子」的英文是什么？",
-      "en": "What is \"Laozi\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Laozi",
-      "en": "老子"
-    }
-  },
-  {
-    "id": "INVENTIONS_137",
-    "category": "inventions",
-    "question": {
-      "zh": "「漆」的英文是什么？",
-      "en": "What is \"Lacquer\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Lacquer",
-      "en": "漆"
-    }
-  },
-  {
-    "id": "FESTIVALS_096",
-    "category": "festivals",
-    "question": {
-      "zh": "「芒种」的英文是什么？",
-      "en": "What is \"Grain in Ear\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Grain in Ear",
-      "en": "芒种"
-    }
-  },
-  {
-    "id": "RIVERS_160",
-    "category": "rivers",
-    "question": {
-      "zh": "「乌苏里江」的英文是什么？",
-      "en": "What is \"Ussuri River\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Ussuri River",
-      "en": "乌苏里江"
-    }
-  },
-  {
-    "id": "UNESCO_SITES_025",
-    "category": "unesco_sites",
-    "question": {
-      "zh": "「秦始皇兵马俑」的英文是什么？",
-      "en": "What is \"Terracotta Army\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Terracotta Army",
-      "en": "秦始皇兵马俑"
-    }
-  },
-  {
-    "id": "PHILOSOPHERS_114",
-    "category": "philosophers",
-    "question": {
-      "zh": "「吕不韦」的英文是什么？",
-      "en": "What is \"Lü Buwei\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Lü Buwei",
-      "en": "吕不韦"
-    }
-  },
-  {
-    "id": "FESTIVALS_083",
-    "category": "festivals",
-    "question": {
-      "zh": "「清明节」的英文是什么？",
-      "en": "What is \"Qingming Festival\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Qingming Festival",
-      "en": "清明节"
-    }
-  },
-  {
-    "id": "UNESCO_SITES_037",
-    "category": "unesco_sites",
-    "question": {
-      "zh": "「龙门石窟」的英文是什么？",
-      "en": "What is \"Longmen Grottoes\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Longmen Grottoes",
-      "en": "龙门石窟"
-    }
-  },
-  {
-    "id": "TEA_070",
-    "category": "tea",
-    "question": {
-      "zh": "「茉莉花茶」的英文是什么？",
-      "en": "What is \"Jasmine Tea\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Jasmine Tea",
-      "en": "茉莉花茶"
-    }
-  },
-  {
-    "id": "INSTRUMENTS_187",
-    "category": "instruments",
-    "question": {
-      "zh": "「古琴」的英文是什么？",
-      "en": "What is \"Guqin\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Guqin",
-      "en": "古琴"
-    }
-  },
-  {
-    "id": "RIVERS_145",
-    "category": "rivers",
-    "question": {
-      "zh": "「澜沧江」的英文是什么？",
-      "en": "What is \"Lancang River\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Lancang River",
-      "en": "澜沧江"
-    }
-  },
-  {
-    "id": "INSTRUMENTS_195",
-    "category": "instruments",
-    "question": {
-      "zh": "「锣」的英文是什么？",
-      "en": "What is \"Gong\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Gong",
-      "en": "锣"
-    }
-  },
-  {
-    "id": "INSTRUMENTS_183",
-    "category": "instruments",
-    "question": {
-      "zh": "「琵琶」的英文是什么？",
-      "en": "What is \"Pipa\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Pipa",
-      "en": "琵琶"
-    }
-  },
-  {
-    "id": "MOUNTAINS_174",
-    "category": "mountains",
-    "question": {
-      "zh": "「梅里雪山」的英文是什么？",
-      "en": "What is \"Meili Snow Mountain\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Meili Snow Mountain",
-      "en": "梅里雪山"
-    }
-  },
-  {
-    "id": "DISHES_059",
-    "category": "dishes",
-    "question": {
-      "zh": "「羊肉泡馍」的英文是什么？",
-      "en": "What is \"Yangrou Paomo\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Yangrou Paomo",
-      "en": "羊肉泡馍"
-    }
-  },
-  {
-    "id": "UNESCO_SITES_036",
-    "category": "unesco_sites",
-    "question": {
-      "zh": "「红河哈尼梯田」的英文是什么？",
-      "en": "What is \"Honghe Hani Rice Terraces\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Honghe Hani Rice Terraces",
-      "en": "红河哈尼梯田"
-    }
-  },
-  {
-    "id": "MOUNTAINS_162",
-    "category": "mountains",
-    "question": {
-      "zh": "「华山」的英文是什么？",
-      "en": "What is \"Mount Hua\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Mount Hua",
-      "en": "华山"
-    }
-  },
-  {
-    "id": "ANCIENT_CITIES_015",
-    "category": "ancient_cities",
-    "question": {
-      "zh": "「保定」的英文是什么？",
-      "en": "What is \"Baoding\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Baoding",
-      "en": "保定"
-    }
-  },
-  {
-    "id": "ANCIENT_CITIES_017",
-    "category": "ancient_cities",
-    "question": {
-      "zh": "「泉州」的英文是什么？",
-      "en": "What is \"Quanzhou\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Quanzhou",
-      "en": "泉州"
-    }
-  },
-  {
-    "id": "TEA_061",
-    "category": "tea",
-    "question": {
-      "zh": "「龙井茶」的英文是什么？",
-      "en": "What is \"Longjing Tea\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Longjing Tea",
-      "en": "龙井茶"
-    }
-  },
-  {
-    "id": "TEA_077",
-    "category": "tea",
-    "question": {
-      "zh": "「太平猴魁」的英文是什么？",
-      "en": "What is \"Taiping Houkui Tea\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Taiping Houkui Tea",
-      "en": "太平猴魁"
-    }
-  },
-  {
-    "id": "FESTIVALS_094",
-    "category": "festivals",
-    "question": {
-      "zh": "「立春」的英文是什么？",
-      "en": "What is \"Beginning of Spring\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Beginning of Spring",
-      "en": "立春"
-    }
-  },
-  {
-    "id": "FESTIVALS_088",
-    "category": "festivals",
-    "question": {
-      "zh": "「腊八节」的英文是什么？",
-      "en": "What is \"Laba Festival\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Laba Festival",
-      "en": "腊八节"
-    }
-  },
-  {
-    "id": "TEA_069",
-    "category": "tea",
-    "question": {
-      "zh": "「六安瓜片」的英文是什么？",
-      "en": "What is \"Liu'an Gua Pian Tea\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Liu'an Gua Pian Tea",
-      "en": "六安瓜片"
-    }
-  },
-  {
-    "id": "INSTRUMENTS_194",
-    "category": "instruments",
-    "question": {
-      "zh": "「鼓」的英文是什么？",
-      "en": "What is \"Drum\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Drum",
-      "en": "鼓"
-    }
-  },
-  {
-    "id": "INVENTIONS_126",
-    "category": "inventions",
-    "question": {
-      "zh": "「马镫」的英文是什么？",
-      "en": "What is \"Stirrup\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Stirrup",
-      "en": "马镫"
-    }
-  },
-  {
-    "id": "INVENTIONS_124",
-    "category": "inventions",
-    "question": {
-      "zh": "「印刷术」的英文是什么？",
-      "en": "What is \"Printing\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Printing",
-      "en": "印刷术"
-    }
-  },
-  {
-    "id": "FESTIVALS_092",
-    "category": "festivals",
-    "question": {
-      "zh": "「上巳节」的英文是什么？",
-      "en": "What is \"Shangsi Festival\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Shangsi Festival",
-      "en": "上巳节"
-    }
-  },
-  {
-    "id": "UNESCO_SITES_022",
-    "category": "unesco_sites",
-    "question": {
-      "zh": "「故宫」的英文是什么？",
-      "en": "What is \"Forbidden City\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Forbidden City",
-      "en": "故宫"
-    }
-  },
-  {
-    "id": "INVENTIONS_125",
-    "category": "inventions",
-    "question": {
-      "zh": "「地震仪」的英文是什么？",
-      "en": "What is \"Seismograph\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Seismograph",
-      "en": "地震仪"
-    }
-  },
-  {
-    "id": "RIVERS_158",
-    "category": "rivers",
-    "question": {
-      "zh": "「辽河」的英文是什么？",
-      "en": "What is \"Liao River\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Liao River",
-      "en": "辽河"
-    }
-  },
-  {
-    "id": "ANCIENT_CITIES_012",
-    "category": "ancient_cities",
-    "question": {
-      "zh": "「抚顺」的英文是什么？",
-      "en": "What is \"Fushun\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Fushun",
-      "en": "抚顺"
-    }
-  },
-  {
-    "id": "INVENTIONS_122",
-    "category": "inventions",
-    "question": {
-      "zh": "「火药」的英文是什么？",
-      "en": "What is \"Gunpowder\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Gunpowder",
-      "en": "火药"
-    }
-  },
-  {
-    "id": "TEA_062",
-    "category": "tea",
-    "question": {
-      "zh": "「碧螺春」的英文是什么？",
-      "en": "What is \"Biluochun Tea\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Biluochun Tea",
-      "en": "碧螺春"
-    }
-  },
-  {
-    "id": "INVENTIONS_134",
-    "category": "inventions",
-    "question": {
-      "zh": "「弩」的英文是什么？",
-      "en": "What is \"Crossbow\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Crossbow",
-      "en": "弩"
-    }
-  },
-  {
-    "id": "PHILOSOPHERS_112",
-    "category": "philosophers",
-    "question": {
-      "zh": "「程颢」的英文是什么？",
-      "en": "What is \"Cheng Hao\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Cheng Hao",
-      "en": "程颢"
-    }
-  },
-  {
-    "id": "TEA_072",
-    "category": "tea",
-    "question": {
-      "zh": "「白牡丹」的英文是什么？",
-      "en": "What is \"White Peony Tea\" in Chinese?"
-    },
-    "answer": {
-      "zh": "White Peony Tea",
-      "en": "白牡丹"
-    }
-  },
-  {
-    "id": "INSTRUMENTS_188",
-    "category": "instruments",
-    "question": {
-      "zh": "「扬琴」的英文是什么？",
-      "en": "What is \"Yangqin\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Yangqin",
-      "en": "扬琴"
-    }
-  },
-  {
-    "id": "PHILOSOPHERS_119",
-    "category": "philosophers",
-    "question": {
-      "zh": "「杨朱」的英文是什么？",
-      "en": "What is \"Yang Zhu\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Yang Zhu",
-      "en": "杨朱"
-    }
-  },
-  {
-    "id": "INVENTIONS_135",
-    "category": "inventions",
-    "question": {
-      "zh": "「机械钟」的英文是什么？",
-      "en": "What is \"Mechanical Clock\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Mechanical Clock",
-      "en": "机械钟"
-    }
-  },
-  {
-    "id": "INSTRUMENTS_182",
-    "category": "instruments",
-    "question": {
-      "zh": "「古筝」的英文是什么？",
-      "en": "What is \"Guzheng\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Guzheng",
-      "en": "古筝"
-    }
-  },
-  {
-    "id": "PHILOSOPHERS_113",
-    "category": "philosophers",
-    "question": {
-      "zh": "「程颐」的英文是什么？",
-      "en": "What is \"Cheng Yi\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Cheng Yi",
-      "en": "程颐"
-    }
-  },
-  {
-    "id": "RIVERS_147",
-    "category": "rivers",
-    "question": {
-      "zh": "「黑龙江」的英文是什么？",
-      "en": "What is \"Amur River\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Amur River",
-      "en": "黑龙江"
-    }
-  },
-  {
-    "id": "MOUNTAINS_172",
-    "category": "mountains",
-    "question": {
-      "zh": "「黄山」的英文是什么？",
-      "en": "What is \"Mount Huangshan\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Mount Huangshan",
-      "en": "黄山"
-    }
-  },
-  {
-    "id": "FESTIVALS_081",
-    "category": "festivals",
-    "question": {
-      "zh": "「春节」的英文是什么？",
-      "en": "What is \"Spring Festival\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Spring Festival",
-      "en": "春节"
-    }
-  },
-  {
-    "id": "UNESCO_SITES_024",
-    "category": "unesco_sites",
-    "question": {
-      "zh": "「颐和园」的英文是什么？",
-      "en": "What is \"Summer Palace\" in Chinese?"
-    },
-    "answer": {
-      "zh": "Summer Palace",
-      "en": "颐和园"
+      "zh": "幸福、财富、长寿",
+      "en": "Happiness, Prosperity, Longevity"
     }
   }
 ]
