@@ -3,28 +3,113 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Culture Flip</title>
+  <title>Culture Flip - 中华文化翻卡学习</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Serif+SC:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <img src="logo.svg" alt="Culture Flip logo" class="logo"/>
-    <h1>Culture Flip</h1>
-  </header>
+  <!-- Background decorative elements -->
+  <div class="bg-decoration">
+    <div class="cloud cloud-1"></div>
+    <div class="cloud cloud-2"></div>
+    <div class="cloud cloud-3"></div>
+  </div>
 
-  <main id="app">
-    <div id="card" class="card">
-      <div class="inner">
-        <div class="front" id="question"></div>
-        <div class="back" id="answer"></div>
+  <div class="container">
+    <header class="header">
+      <div class="logo-container">
+        <img src="logo.svg" alt="Culture Flip logo" class="logo"/>
+        <div class="logo-text">
+          <h1 class="app-title">Culture Flip</h1>
+          <p class="app-subtitle">中华文化翻卡学习</p>
+        </div>
       </div>
-    </div>
-    <button id="next">下一题 / Next</button>
-  </main>
+      
+      <div class="progress-container">
+        <div class="progress-info">
+          <span id="progress-text">题目 1 / 200</span>
+          <span id="category-text">历史文化</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+      </div>
+    </header>
 
-  <footer>
-    <a href="privacy.html">Privacy & Compliance</a>
-  </footer>
+    <main id="app" class="main-content">
+      <div class="card-container">
+        <div id="card" class="card">
+          <div class="card-inner">
+            <div class="card-face card-front" id="question">
+              <div class="card-corner top-left"></div>
+              <div class="card-corner top-right"></div>
+              <div class="card-corner bottom-left"></div>
+              <div class="card-corner bottom-right"></div>
+              <div class="card-content">
+                <div class="question-icon">❓</div>
+                <div class="question-text">
+                  <div class="question-zh"></div>
+                  <div class="question-en"></div>
+                </div>
+                <div class="hint-text">轻触卡片查看答案</div>
+              </div>
+            </div>
+            
+            <div class="card-face card-back" id="answer">
+              <div class="card-corner top-left"></div>
+              <div class="card-corner top-right"></div>
+              <div class="card-corner bottom-left"></div>
+              <div class="card-corner bottom-right"></div>
+              <div class="card-content">
+                <div class="answer-icon">✨</div>
+                <div class="answer-text">
+                  <div class="answer-zh"></div>
+                  <div class="answer-en"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="tap-indicator">
+          <div class="tap-circle"></div>
+          <span>轻触翻卡</span>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button id="prev" class="btn btn-secondary" disabled>
+          <span class="btn-icon">←</span>
+          <span class="btn-text">上一题</span>
+        </button>
+        
+        <button id="next" class="btn btn-primary">
+          <span class="btn-text">下一题</span>
+          <span class="btn-icon">→</span>
+        </button>
+      </div>
+
+      <div class="stats">
+        <div class="stat-item">
+          <span class="stat-number" id="total-answered">0</span>
+          <span class="stat-label">已答题</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number" id="completion-rate">0%</span>
+          <span class="stat-label">完成率</span>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p class="footer-description">让孩子在轻松翻卡中探索中华文化之美</p>
+        <a href="privacy.html" class="privacy-link">隐私声明 | Privacy Policy</a>
+      </div>
+    </footer>
+  </div>
 
   <script src="main.js"></script>
 </body>
