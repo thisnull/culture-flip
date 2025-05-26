@@ -182,9 +182,9 @@ function render() {
   
   // 如果是最后一题，更新按钮文本
   if (state.current === state.data.length - 1) {
-    nextBtn.querySelector('.btn-text')!.textContent = '完成学习';
+    nextBtn.querySelector('.btn-text')!.textContent = 'Complete';
   } else {
-    nextBtn.querySelector('.btn-text')!.textContent = '下一题';
+    nextBtn.querySelector('.btn-text')!.textContent = 'Next';
   }
 }
 

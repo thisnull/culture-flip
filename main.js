@@ -133,10 +133,10 @@ function render() {
     prevBtn.disabled = state.current === 0;
     nextBtn.disabled = state.current === state.data.length - 1;
     if (state.current === state.data.length - 1) {
-        nextBtn.querySelector('.btn-text').textContent = '完成学习';
+        nextBtn.querySelector('.btn-text').textContent = 'Complete';
     }
     else {
-        nextBtn.querySelector('.btn-text').textContent = '下一题';
+        nextBtn.querySelector('.btn-text').textContent = 'Next';
     }
 }
 function updateProgress() {
