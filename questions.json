@@ -1,491 +1,470 @@
 [
   {
-    "id": "HIS_001",
-    "category": "history",
+    "id": "DW_001",
+    "category": "festivals",
     "question": {
-      "zh": "被誉为“纸上谈兵”的战国时期著作是哪部兵书？",
-      "en": "Which Warring-States military treatise is nicknamed “Armchair Warfare” for its theoretical approach?"
-    },
-    "answer": {
-      "zh": "《孙膑兵法》",
-      "en": "The Art of War by Sun Bin"
-    }
-  },
-  {
-    "id": "HIS_002",
-    "category": "history",
-    "question": {
-      "zh": "中国古代官员“入仕”时要通过哪项最重要的考试制度？",
-      "en": "What rigorous examination system did ancient Chinese scholars pass to enter government service?"
-    },
-    "answer": {
-      "zh": "科举制度",
-      "en": "The Imperial Civil-Service Examination (Keju)"
-    }
-  },
-  {
-    "id": "HIS_003",
-    "category": "history",
-    "question": {
-      "zh": "哪位航海家率领“宝船”七下西洋，被誉为海上丝绸之路的先驱？",
-      "en": "Which admiral led seven treasure-ship voyages that expanded the Maritime Silk Road?"
-    },
-    "answer": {
-      "zh": "郑和",
-      "en": "Zheng He"
-    }
-  },
-  {
-    "id": "HIS_004",
-    "category": "history",
-    "question": {
-      "zh": "中国历史上第一个多民族统一帝国是哪个朝代？",
-      "en": "Which dynasty was the first to unify China’s major ethnic groups under one empire?"
-    },
-    "answer": {
-      "zh": "秦朝",
-      "en": "The Qin Dynasty"
-    }
-  },
-  {
-    "id": "HIS_005",
-    "category": "history",
-    "question": {
-      "zh": "丝绸之路的陆路起点位于今天中国的哪座城市？",
-      "en": "Which modern Chinese city served as the eastern starting point of the overland Silk Road?"
-    },
-    "answer": {
-      "zh": "西安（古长安）",
-      "en": "Xi’an (ancient Chang’an)"
-    }
-  },
-
-  {
-    "id": "UNE_006",
-    "category": "unesco_sites",
-    "question": {
-      "zh": "哪座石窟以“飞天壁画”闻名，展现了中西文化交融的佛教艺术？",
-      "en": "Which grotto complex is famous for its “Flying Apsaras” murals blending Eastern and Western art?"
-    },
-    "answer": {
-      "zh": "敦煌莫高窟",
-      "en": "The Mogao Caves in Dunhuang"
-    }
-  },
-  {
-    "id": "UNE_007",
-    "category": "unesco_sites",
-    "question": {
-      "zh": "被称为“世界屋脊上的宫殿”，位于拉萨的世界文化遗产是哪座？",
-      "en": "Which UNESCO palace in Lhasa is known as the “Palace on the Roof of the World”?"
-    },
-    "answer": {
-      "zh": "布达拉宫",
-      "en": "The Potala Palace"
-    }
-  },
-  {
-    "id": "UNE_008",
-    "category": "unesco_sites",
-    "question": {
-      "zh": "中国四大石窟之一，位于洛阳，以唐代佛像比例写实著称的是哪处？",
-      "en": "Which of China’s four great grottoes, located in Luoyang, is noted for Tang-dynasty realistic Buddha statues?"
-    },
-    "answer": {
-      "zh": "龙门石窟",
-      "en": "The Longmen Grottoes"
-    }
-  },
-  {
-    "id": "UNE_009",
-    "category": "unesco_sites",
-    "question": {
-      "zh": "哪座山因“天下第一奇山”之誉与迎客松而列入世界自然文化双遗产？",
-      "en": "Which mountain, famed for the ‘Greeting Pine,’ is a dual World Natural and Cultural Heritage site nicknamed “the most spectacular under heaven”?"
-    },
-    "answer": {
-      "zh": "黄山",
-      "en": "Mount Huangshan"
-    }
-  },
-  {
-    "id": "UNE_010",
-    "category": "unesco_sites",
-    "question": {
-      "zh": "福建土楼采用环形结构能抵御外敌，其主要居住民族是哪一族？",
-      "en": "The circular Fujian Tulou earthen buildings were designed for defense. Which ethnic group primarily built and lived in them?"
-    },
-    "answer": {
-      "zh": "客家人",
-      "en": "The Hakka People"
-    }
-  },
-
-  {
-    "id": "FOOD_011",
-    "category": "dishes",
-    "question": {
-      "zh": "哪道京味名菜需以果木烤制并配荷叶饼和甜面酱食用？",
-      "en": "Which Beijing delicacy is roasted over fruitwood and wrapped with hoisin sauce in thin pancakes?"
-    },
-    "answer": {
-      "zh": "北京烤鸭",
-      "en": "Peking Duck"
-    }
-  },
-  {
-    "id": "FOOD_012",
-    "category": "dishes",
-    "question": {
-      "zh": "“鱼跃龙门”常用哪道辣味湖南菜来形容，因为它以整条鱼头为主材？",
-      "en": "Which spicy Hunan dish, known for using a whole fish head, is often linked to the phrase ‘Carp Leaping over the Dragon Gate’?"
-    },
-    "answer": {
-      "zh": "剁椒鱼头",
-      "en": "Fish Head with Chopped Chili"
-    }
-  },
-  {
-    "id": "FOOD_013",
-    "category": "dishes",
-    "question": {
-      "zh": "上海小笼包咬开能喝汤，其中汤汁主要来自包入的哪种凝固物？",
-      "en": "Soup dumplings burst with broth because the filling contains which gelatin that melts when steamed?"
-    },
-    "answer": {
-      "zh": "猪皮冻",
-      "en": "Pork-skin Aspic"
-    }
-  },
-  {
-    "id": "FOOD_014",
-    "category": "dishes",
-    "question": {
-      "zh": "“八大菜系”中，以香辣著称且常用花椒的菜系是哪一系？",
-      "en": "Which of China’s Eight Culinary Traditions is famous for spicy flavors and liberal use of Sichuan peppercorn?"
-    },
-    "answer": {
-      "zh": "川菜",
-      "en": "Sichuan Cuisine"
-    }
-  },
-  {
-    "id": "FOOD_015",
-    "category": "dishes",
-    "question": {
-      "zh": "端午节吃粽子的传统源于纪念哪位爱国诗人？",
-      "en": "Eating Zongzi at the Dragon Boat Festival commemorates which patriotic poet?"
+      "zh": "端午节最初是为了纪念哪位伟大的爱国诗人？",
+      "en": "Which great patriotic poet is primarily commemorated during the Dragon Boat Festival?"
     },
     "answer": {
       "zh": "屈原",
       "en": "Qu Yuan"
     }
   },
-
   {
-    "id": "TEA_016",
-    "category": "tea",
-    "question": {
-      "zh": "哪种绿茶因其采于杭州西湖而得名，被誉为“国茶”？",
-      "en": "Which green tea, harvested around Hangzhou’s West Lake, is celebrated as China’s ‘National Tea’?"
-    },
-    "answer": {
-      "zh": "龙井茶",
-      "en": "Longjing (Dragon Well) Tea"
-    }
-  },
-  {
-    "id": "TEA_017",
-    "category": "tea",
-    "question": {
-      "zh": "普洱茶独特的陈化风味来自于哪种特殊后发酵工艺？",
-      "en": "Pu’er tea’s earthy, aged flavor results from what unique post-fermentation process?"
-    },
-    "answer": {
-      "zh": "渥堆发酵",
-      "en": "Wo-Dui (pile fermentation)"
-    }
-  },
-  {
-    "id": "TEA_018",
-    "category": "tea",
-    "question": {
-      "zh": "武夷岩茶“大红袍”因母株稀少，被奉为“茶中状元”。它属于哪一茶类？",
-      "en": "The cliff-grown Dahongpao, called the ‘Champion of Teas,’ belongs to which tea category?"
-    },
-    "answer": {
-      "zh": "乌龙茶",
-      "en": "Oolong Tea"
-    }
-  },
-  {
-    "id": "TEA_019",
-    "category": "tea",
-    "question": {
-      "zh": "哪种花茶以“窨花”工艺将茶叶与花香反复交融，常用茉莉花？",
-      "en": "Which scented tea uses repeated ‘scenting’ to infuse leaves with jasmine aroma?"
-    },
-    "answer": {
-      "zh": "茉莉花茶",
-      "en": "Jasmine-scented Tea"
-    }
-  },
-
-  {
-    "id": "FES_020",
+    "id": "DW_002",
     "category": "festivals",
     "question": {
-      "zh": "农历正月十五观花灯、吃元宵的节日叫什么？",
-      "en": "Which festival on the 15th day of the Lunar New Year features lantern displays and sweet rice-ball desserts?"
+      "zh": "端午节在每年农历几月几日举行？",
+      "en": "On which day of the lunar calendar is the Dragon Boat Festival celebrated each year?"
     },
     "answer": {
-      "zh": "元宵节",
-      "en": "The Lantern Festival"
+      "zh": "农历五月初五",
+      "en": "The 5th day of the 5th lunar month"
     }
   },
   {
-    "id": "FES_021",
+    "id": "DW_003",
     "category": "festivals",
     "question": {
-      "zh": "中秋夜赏月配月饼，传统寓意是什么？",
-      "en": "What traditional meaning is conveyed by moon-gazing and sharing mooncakes during Mid-Autumn Festival?"
+      "zh": "端午节的英文名\"Dragon Boat Festival\"来源于什么传统活动？",
+      "en": "What traditional activity gives the Dragon Boat Festival its English name?"
     },
     "answer": {
-      "zh": "团圆",
-      "en": "Family Reunion"
+      "zh": "赛龙舟",
+      "en": "Dragon boat racing"
     }
   },
   {
-    "id": "FES_022",
-    "category": "festivals",
+    "id": "DW_004",
+    "category": "history",
     "question": {
-      "zh": "赛龙舟活动最早源于哪条中国江河的祭祀习俗？",
-      "en": "Dragon-boat racing originated from sacrificial rites on which major Chinese river?"
+      "zh": "传说人们划龙舟是为了做什么？",
+      "en": "According to legend, why did people start racing dragon boats?"
     },
     "answer": {
-      "zh": "汨罗江",
-      "en": "The Miluo River"
+      "zh": "寻找和救起投江的屈原",
+      "en": "To search for and rescue Qu Yuan who drowned himself in the river"
     }
   },
   {
-    "id": "FES_023",
-    "category": "festivals",
+    "id": "DW_005",
+    "category": "dishes",
     "question": {
-      "zh": "重阳节有登高祈福的传统，其日期在农历哪个月份？",
-      "en": "The Double-Ninth Festival encourages mountain climbing for blessings. In which lunar month does it fall?"
+      "zh": "粽子的外皮通常用什么植物的叶子包裹？",
+      "en": "What plant leaves are typically used to wrap zongzi (rice dumplings)?"
     },
     "answer": {
-      "zh": "九月初九",
-      "en": "The ninth day of the ninth lunar month"
+      "zh": "箬竹叶（或粽叶）",
+      "en": "Reed leaves or bamboo leaves"
     }
   },
-
   {
-    "id": "INV_024",
-    "category": "inventions",
+    "id": "DW_006",
+    "category": "dishes",
     "question": {
-      "zh": "哪项古代发明通过“活字”提升了印刷效率？",
-      "en": "Which ancient invention used movable characters to greatly speed up printing?"
+      "zh": "为什么人们在端午节吃粽子？",
+      "en": "Why do people eat zongzi during the Dragon Boat Festival?"
     },
     "answer": {
-      "zh": "活字印刷术",
-      "en": "Movable-type Printing"
+      "zh": "传说是为了防止鱼吃掉屈原的遗体",
+      "en": "Legend says it was to prevent fish from eating Qu Yuan's body"
     }
   },
   {
-    "id": "INV_025",
-    "category": "inventions",
+    "id": "DW_007",
+    "category": "dishes",
     "question": {
-      "zh": "张衡发明的“候风地动仪”主要用于监测哪类自然灾害？",
-      "en": "Zhang Heng’s ancient seismoscope was designed to detect which natural disaster?"
+      "zh": "中国南方和北方的粽子有什么主要区别？",
+      "en": "What's the main difference between zongzi from northern and southern China?"
     },
     "answer": {
-      "zh": "地震",
-      "en": "Earthquakes"
+      "zh": "南方粽子多为咸味，北方粽子多为甜味",
+      "en": "Southern zongzi are usually savory while northern ones are often sweet"
     }
   },
   {
-    "id": "INV_026",
-    "category": "inventions",
+    "id": "DW_008",
+    "category": "customs",
     "question": {
-      "zh": "古代“四大发明”中，哪一项改变了航海的方向定位方式？",
-      "en": "Which of China’s Four Great Inventions revolutionized navigation by indicating direction?"
+      "zh": "端午节为什么要在门上挂艾草和菖蒲？",
+      "en": "Why do people hang mugwort and calamus on doors during the Dragon Boat Festival?"
     },
     "answer": {
-      "zh": "指南针",
-      "en": "The Compass"
+      "zh": "驱邪避瘟，保佑家人健康",
+      "en": "To ward off evil spirits and disease, protecting family health"
     }
   },
   {
-    "id": "INV_027",
-    "category": "inventions",
+    "id": "DW_009",
+    "category": "customs",
     "question": {
-      "zh": "哪种中国古代武器利用硝石等混合物，实现了火力攻击的突破？",
-      "en": "Which ancient Chinese weapon, using a nitrate-based mixture, marked a breakthrough in gunpowder warfare?"
+      "zh": "端午节小朋友佩戴的香囊里通常装有什么？",
+      "en": "What is typically inside the fragrant sachets that children wear during the Dragon Boat Festival?"
     },
     "answer": {
-      "zh": "火药箭 / 火箭",
-      "en": "Gunpowder Arrow / Fire Arrow"
+      "zh": "中草药和香料",
+      "en": "Chinese herbs and spices"
     }
   },
-
   {
-    "id": "GEO_028",
-    "category": "mountains",
+    "id": "DW_010",
+    "category": "customs",
     "question": {
-      "zh": "被尊为“五岳之首”的山是哪一座？",
-      "en": "Which mountain is honored as the foremost of China’s Five Sacred Peaks?"
+      "zh": "端午节的\"五毒\"指的是哪五种生物？",
+      "en": "What five creatures make up the 'Five Poisonous Creatures' associated with the Dragon Boat Festival?"
     },
     "answer": {
-      "zh": "泰山",
-      "en": "Mount Tai"
+      "zh": "蛇、蝎子、蜈蚣、壁虎、蟾蜍",
+      "en": "Snake, scorpion, centipede, gecko, and toad"
     }
   },
   {
-    "id": "GEO_029",
-    "category": "rivers",
+    "id": "DW_011",
+    "category": "history",
     "question": {
-      "zh": "哪条河因孕育华夏文明而被称作“母亲河”？",
-      "en": "Which river is called the ‘Mother River’ for nurturing early Chinese civilization?"
+      "zh": "屈原是哪个古代国家的大臣？",
+      "en": "Qu Yuan was a minister of which ancient Chinese state?"
     },
     "answer": {
-      "zh": "黄河",
-      "en": "The Yellow River"
+      "zh": "楚国",
+      "en": "The State of Chu"
     }
   },
   {
-    "id": "GEO_030",
-    "category": "mountains",
+    "id": "DW_012",
+    "category": "customs",
     "question": {
-      "zh": "佛教四大名山之一，因“金顶云海”景观而著名的是哪座？",
-      "en": "Which of China’s Four Sacred Buddhist Mountains is renowned for its ‘Golden Summit Sea of Clouds’?"
+      "zh": "端午节立蛋的习俗是基于什么原理？",
+      "en": "What principle is the Dragon Boat Festival egg-balancing custom based on?"
     },
     "answer": {
-      "zh": "峨眉山",
-      "en": "Mount Emei"
+      "zh": "阴阳平衡，此时立蛋更容易成功",
+      "en": "The balance of yin and yang makes it easier to stand eggs upright"
     }
   },
   {
-    "id": "GEO_031",
-    "category": "rivers",
+    "id": "DW_013",
+    "category": "sports",
     "question": {
-      "zh": "长江在四川一段因急转弯形成壮观峡谷，被称为“___第一湾”。",
-      "en": "The Yangtze forms a spectacular gorge at a sharp bend in Sichuan, nicknamed ‘the ___ First Bend.’ Fill in the blank."
+      "zh": "一条标准的龙舟通常需要多少名划手？",
+      "en": "How many paddlers are typically needed for a standard dragon boat?"
     },
     "answer": {
-      "zh": "金沙江",
-      "en": "Jinsha River"
+      "zh": "20名划手（10对）",
+      "en": "20 paddlers (10 pairs)"
     }
   },
-
   {
-    "id": "MUS_032",
-    "category": "instruments",
+    "id": "DW_014",
+    "category": "customs",
     "question": {
-      "zh": "古筝常用的最经典演奏技巧，被称作“___指飞瀑”。",
-      "en": "Gu-zheng’s signature rapid-picking technique is poetically called ‘flying waterfall of ___ fingers.’ Fill in the blank."
+      "zh": "端午节为什么又被称为\"女儿节\"？",
+      "en": "Why is the Dragon Boat Festival also called the 'Daughters' Festival' in some regions?"
     },
     "answer": {
-      "zh": "十",
-      "en": "ten"
+      "zh": "在某些地区，这一天女孩会穿新衣、戴香囊，祈求健康平安",
+      "en": "In some regions, girls wear new clothes and sachets on this day, praying for health and safety"
     }
   },
   {
-    "id": "MUS_033",
-    "category": "instruments",
-    "question": {
-      "zh": "“高山流水”是中国古琴名曲，传说与哪位伯牙知音有关？",
-      "en": "The guqin masterpiece ‘High Mountains, Flowing Water’ is linked to which legendary confidant of the musician Boya?"
-    },
-    "answer": {
-      "zh": "钟子期",
-      "en": "Zhong Ziqi"
-    }
-  },
-  {
-    "id": "MUS_034",
-    "category": "instruments",
-    "question": {
-      "zh": "笙因可同时吹出多音，被称为中国古代的“___”，填空。",
-      "en": "The sheng can produce multiple notes at once, earning it the nickname ‘the ancient Chinese ___.’ Fill in the blank."
-    },
-    "answer": {
-      "zh": "和声管风琴",
-      "en": "mouth-organ / pipe-organ"
-    }
-  },
-  {
-    "id": "MUS_035",
-    "category": "instruments",
-    "question": {
-      "zh": "新疆传统乐器“热瓦普”多用于哪支民族的十二木卡姆？",
-      "en": "The rewap is central to the Twelve Muqam music of which ethnic group in Xinjiang?"
-    },
-    "answer": {
-      "zh": "维吾尔族",
-      "en": "The Uyghur people"
-    }
-  },
-
-  {
-    "id": "LIT_036",
-    "category": "philosophy",
-    "question": {
-      "zh": "《论语》记录了哪位思想家的言行？",
-      "en": "The Analects compile the sayings of which Chinese philosopher?"
-    },
-    "answer": {
-      "zh": "孔子",
-      "en": "Confucius"
-    }
-  },
-  {
-    "id": "LIT_037",
-    "category": "philosophy",
-    "question": {
-      "zh": "道家经典《道德经》提出“上善若水”的理念，作者是谁？",
-      "en": "Which sage wrote the Taoist classic Tao Te Ching, advocating that ‘supreme goodness is like water’?"
-    },
-    "answer": {
-      "zh": "老子",
-      "en": "Laozi"
-    }
-  },
-  {
-    "id": "LIT_038",
+    "id": "DW_015",
     "category": "literature",
     "question": {
-      "zh": "被誉为“四大名著”之首，描写宋江等梁山好汉的是哪部小说？",
-      "en": "Which first of China’s Four Great Classical Novels depicts Song Jiang and the Outlaws of the Marsh?"
+      "zh": "屈原最著名的诗作是什么？",
+      "en": "What is Qu Yuan's most famous poem?"
     },
     "answer": {
-      "zh": "《水浒传》",
-      "en": "Water Margin (Outlaws of the Marsh)"
-    }
-  },
-
-  {
-    "id": "MIS_039",
-    "category": "misc",
-    "question": {
-      "zh": "中国传统舞狮表演中，通常用什么颜色的“毛”代表年轻活力的狮子？",
-      "en": "In traditional Chinese lion dance, which fur color typically symbolizes a young, energetic lion?"
-    },
-    "answer": {
-      "zh": "黄色",
-      "en": "Yellow"
+      "zh": "《离骚》",
+      "en": "Li Sao (The Lament)"
     }
   },
   {
-    "id": "MIS_040",
-    "category": "misc",
+    "id": "DW_016",
+    "category": "global",
     "question": {
-      "zh": "“福、禄、寿”三星象征吉祥，它们分别代表什么祝愿？",
-      "en": "The three deities Fu, Lu, and Shou symbolize which blessings respectively?"
+      "zh": "端午节在哪一年被列入联合国教科文组织非物质文化遗产名录？",
+      "en": "In which year was the Dragon Boat Festival listed as UNESCO Intangible Cultural Heritage?"
     },
     "answer": {
-      "zh": "幸福、财富、长寿",
-      "en": "Happiness, Prosperity, Longevity"
+      "zh": "2009年",
+      "en": "2009"
+    }
+  },
+  {
+    "id": "DW_017",
+    "category": "dishes",
+    "question": {
+      "zh": "除了粽子，端午节还有什么传统食物？",
+      "en": "Besides zongzi, what other traditional food is eaten during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "咸鸭蛋、雄黄酒、五黄饮",
+      "en": "Salted duck eggs, realgar wine, and five-yellow drink"
+    }
+  },
+  {
+    "id": "DW_018",
+    "category": "customs",
+    "question": {
+      "zh": "端午节为什么要在家里挂钟馗像？",
+      "en": "Why do people hang images of Zhong Kui in their homes during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "钟馗是驱鬼辟邪的神灵，可保家宅平安",
+      "en": "Zhong Kui is a deity who drives away ghosts and evil spirits, protecting the household"
+    }
+  },
+  {
+    "id": "DW_020",
+    "category": "customs",
+    "question": {
+      "zh": "端午节的\"五色线\"手链代表什么？",
+      "en": "What does the 'five-colored thread' bracelet represent during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "五行（金木水火土）平衡，保佑平安健康",
+      "en": "Balance of the five elements (metal, wood, water, fire, earth), bringing safety and health"
+    }
+  },
+  {
+    "id": "DW_021",
+    "category": "history",
+    "question": {
+      "zh": "屈原是哪个朝代的人？",
+      "en": "During which dynasty did Qu Yuan live?"
+    },
+    "answer": {
+      "zh": "战国时期",
+      "en": "The Warring States Period"
+    }
+  },
+  {
+    "id": "DW_022",
+    "category": "customs",
+    "question": {
+      "zh": "端午节为什么又被称为\"端阳节\"？",
+      "en": "Why is the Dragon Boat Festival also called the 'Duanyang Festival'?"
+    },
+    "answer": {
+      "zh": "因为五月初五是阳历中的重要日子，\"端\"意为开始，\"阳\"代表阳气",
+      "en": "Because the fifth day of the fifth lunar month is an important day in the solar calendar, 'Duan' means beginning, and 'Yang' represents positive energy"
+    }
+  },
+  {
+    "id": "DW_023",
+    "category": "customs",
+    "question": {
+      "zh": "端午节时，人们在门上挂的\"五毒符\"是用来做什么的？",
+      "en": "What is the purpose of hanging 'Five Poison Charms' on doors during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "驱赶蛇、蝎、蜈蚣、壁虎、蟾蜍等五毒，保护家人健康",
+      "en": "To ward off the five poisonous creatures: snakes, scorpions, centipedes, geckos, and toads, protecting family health"
+    }
+  },
+  {
+    "id": "DW_024",
+    "category": "dishes",
+    "question": {
+      "zh": "台湾的\"客家粄粽\"与普通粽子有什么不同？",
+      "en": "How does Taiwan's 'Hakka Ban Zong' differ from regular zongzi?"
+    },
+    "answer": {
+      "zh": "客家粄粽用糯米粉制作而非糯米粒，口感更加软糯",
+      "en": "Hakka Ban Zong is made with glutinous rice flour instead of glutinous rice grains, giving it a softer texture"
+    }
+  },
+  {
+    "id": "DW_025",
+    "category": "sports",
+    "question": {
+      "zh": "龙舟比赛中，\"鼓手\"的主要职责是什么？",
+      "en": "What is the main responsibility of the drummer in dragon boat racing?"
+    },
+    "answer": {
+      "zh": "敲鼓保持节奏，帮助划手协调划桨动作",
+      "en": "To beat the drum to maintain rhythm, helping paddlers coordinate their strokes"
+    }
+  },
+  {
+    "id": "DW_026",
+    "category": "customs",
+    "question": {
+      "zh": "端午节时，小朋友额头上画的\"王\"字符号有什么含义？",
+      "en": "What is the meaning of the character '王' (king) painted on children's foreheads during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "驱邪避灾，保佑孩子平安健康成长",
+      "en": "To ward off evil spirits and protect children, ensuring their safe and healthy growth"
+    }
+  },
+  {
+    "id": "DW_027",
+    "category": "customs",
+    "question": {
+      "zh": "端午节时，为什么要在家里挂艾草人偶？",
+      "en": "Why do people hang mugwort dolls in their homes during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "艾草人偶象征家庭守护者，可驱邪避瘟",
+      "en": "Mugwort dolls symbolize family guardians and can ward off evil spirits and disease"
+    }
+  },
+  {
+    "id": "DW_028",
+    "category": "dishes",
+    "question": {
+      "zh": "广东咸肉粽的特色馅料通常有哪些？",
+      "en": "What are the typical fillings in Cantonese savory zongzi?"
+    },
+    "answer": {
+      "zh": "咸肉、香菇、鲜虾、咸蛋黄、花生等",
+      "en": "Salted pork, shiitake mushrooms, fresh shrimp, salted egg yolks, peanuts, etc."
+    }
+  },
+  {
+    "id": "DW_029",
+    "category": "customs",
+    "question": {
+      "zh": "端午节时，人们为什么要在家中挂菖蒲剑？",
+      "en": "Why do people hang calamus swords in their homes during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "菖蒲形似剑，可以斩妖除魔，保护家人",
+      "en": "Calamus resembles a sword and is believed to cut down evil spirits, protecting the family"
+    }
+  },
+  {
+    "id": "DW_030",
+    "category": "history",
+    "question": {
+      "zh": "除了纪念屈原，端午节在南方部分地区还纪念哪位爱国诗人？",
+      "en": "Besides Qu Yuan, which patriotic poet is also commemorated during the Dragon Boat Festival in some southern regions?"
+    },
+    "answer": {
+      "zh": "伍子胥",
+      "en": "Wu Zixu"
+    }
+  },
+  {
+    "id": "DW_031",
+    "category": "customs",
+    "question": {
+      "zh": "端午节的\"午时水\"指的是什么？为什么人们要收集它？",
+      "en": "What is 'Noon Water' during the Dragon Boat Festival? Why do people collect it?"
+    },
+    "answer": {
+      "zh": "端午节正午时分的井水或河水，据说有治病消灾的功效",
+      "en": "Well or river water collected at noon on the Dragon Boat Festival, believed to have healing and protective properties"
+    }
+  },
+  {
+    "id": "DW_032",
+    "category": "customs",
+    "question": {
+      "zh": "端午节为什么要在床底下放艾草和苍术？",
+      "en": "Why do people place mugwort and atractylodes under beds during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "驱赶蚊虫和避邪，保证睡眠安宁",
+      "en": "To repel insects and evil spirits, ensuring peaceful sleep"
+    }
+  },
+  {
+    "id": "DW_033",
+    "category": "global",
+    "question": {
+      "zh": "日本的\"端午节\"与中国的有什么不同？",
+      "en": "How does Japan's 'Tango no Sekku' differ from China's Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "日本端午主要是男孩节，会悬挂鲤鱼旗和武士人偶",
+      "en": "Japan's festival is mainly a Boys' Day, featuring carp streamers and samurai dolls"
+    }
+  },
+  {
+    "id": "DW_034",
+    "category": "dishes",
+    "question": {
+      "zh": "端午节喝的\"雄黄酒\"是用什么制成的？有什么作用？",
+      "en": "What is 'Realgar Wine' made from and what is its purpose during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "用雄黄矿物泡制的酒，传说可以驱虫避毒",
+      "en": "Wine infused with realgar mineral, traditionally believed to repel insects and poisons"
+    }
+  },
+  {
+    "id": "DW_035",
+    "category": "customs",
+    "question": {
+      "zh": "端午节为什么要在手腕上系五彩绳？",
+      "en": "Why do people tie five-colored threads around their wrists during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "五彩绳象征五行相生，可保平安健康",
+      "en": "The five colors represent the five elements, believed to bring safety and health"
+    }
+  },
+  {
+    "id": "DW_036",
+    "category": "sports",
+    "question": {
+      "zh": "龙舟比赛中，\"舵手\"站在哪个位置？有什么作用？",
+      "en": "Where does the helmsman stand in dragon boat racing? What is their role?"
+    },
+    "answer": {
+      "zh": "站在龙舟尾部，负责掌舵控制方向",
+      "en": "At the stern of the boat, responsible for steering and controlling direction"
+    }
+  },
+  {
+    "id": "DW_037",
+    "category": "customs",
+    "question": {
+      "zh": "端午节时，为什么要在小孩手腕上绑\"长命缕\"？",
+      "en": "Why do people tie 'Longevity Threads' on children's wrists during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "祈求孩子长寿健康，避免疾病",
+      "en": "To pray for children's longevity and health, preventing illness"
+    }
+  },
+  {
+    "id": "DW_038",
+    "category": "literature",
+    "question": {
+      "zh": "屈原投江的汨罗江位于今天的哪个省份？",
+      "en": "In which modern Chinese province is the Miluo River, where Qu Yuan drowned himself?"
+    },
+    "answer": {
+      "zh": "湖南省",
+      "en": "Hunan Province"
+    }
+  },
+  {
+    "id": "DW_039",
+    "category": "dishes",
+    "question": {
+      "zh": "端午节吃的\"咸鸭蛋\"有什么特别之处？",
+      "en": "What is special about the salted duck eggs eaten during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "蛋黄油润红亮，象征阳光和好运",
+      "en": "The egg yolks are oily, bright red, symbolizing sunshine and good fortune"
+    }
+  },
+  {
+    "id": "DW_040",
+    "category": "customs",
+    "question": {
+      "zh": "端午节时，人们为什么要在家门口挂蒜头和苦艾？",
+      "en": "Why do people hang garlic bulbs and wormwood at their doorways during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "蒜头和苦艾的气味可以驱赶蚊虫和瘟疫",
+      "en": "The smell of garlic and wormwood can repel mosquitoes and epidemics"
     }
   }
 ]

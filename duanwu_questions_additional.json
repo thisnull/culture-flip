@@ -1,0 +1,242 @@
+[
+  {
+    "id": "DW_021",
+    "category": "history",
+    "question": {
+      "zh": "屈原是哪个朝代的人？",
+      "en": "During which dynasty did Qu Yuan live?"
+    },
+    "answer": {
+      "zh": "战国时期",
+      "en": "The Warring States Period"
+    }
+  },
+  {
+    "id": "DW_022",
+    "category": "customs",
+    "question": {
+      "zh": "端午节为什么又被称为"端阳节"？",
+      "en": "Why is the Dragon Boat Festival also called the 'Duanyang Festival'?"
+    },
+    "answer": {
+      "zh": "因为五月初五是阳历中的重要日子，"端"意为开始，"阳"代表阳气",
+      "en": "Because the fifth day of the fifth lunar month is an important day in the solar calendar, 'Duan' means beginning, and 'Yang' represents positive energy"
+    }
+  },
+  {
+    "id": "DW_023",
+    "category": "customs",
+    "question": {
+      "zh": "端午节时，人们在门上挂的"五毒符"是用来做什么的？",
+      "en": "What is the purpose of hanging 'Five Poison Charms' on doors during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "驱赶蛇、蝎、蜈蚣、壁虎、蟾蜍等五毒，保护家人健康",
+      "en": "To ward off the five poisonous creatures: snakes, scorpions, centipedes, geckos, and toads, protecting family health"
+    }
+  },
+  {
+    "id": "DW_024",
+    "category": "dishes",
+    "question": {
+      "zh": "台湾的"客家粄粽"与普通粽子有什么不同？",
+      "en": "How does Taiwan's 'Hakka Ban Zong' differ from regular zongzi?"
+    },
+    "answer": {
+      "zh": "客家粄粽用糯米粉制作而非糯米粒，口感更加软糯",
+      "en": "Hakka Ban Zong is made with glutinous rice flour instead of glutinous rice grains, giving it a softer texture"
+    }
+  },
+  {
+    "id": "DW_025",
+    "category": "sports",
+    "question": {
+      "zh": "龙舟比赛中，"鼓手"的主要职责是什么？",
+      "en": "What is the main responsibility of the drummer in dragon boat racing?"
+    },
+    "answer": {
+      "zh": "敲鼓保持节奏，帮助划手协调划桨动作",
+      "en": "To beat the drum to maintain rhythm, helping paddlers coordinate their strokes"
+    }
+  },
+  {
+    "id": "DW_026",
+    "category": "customs",
+    "question": {
+      "zh": "端午节时，小朋友额头上画的"王"字符号有什么含义？",
+      "en": "What is the meaning of the character '王' (king) painted on children's foreheads during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "驱邪避灾，保佑孩子平安健康成长",
+      "en": "To ward off evil spirits and protect children, ensuring their safe and healthy growth"
+    }
+  },
+  {
+    "id": "DW_027",
+    "category": "customs",
+    "question": {
+      "zh": "端午节时，为什么要在家里挂艾草人偶？",
+      "en": "Why do people hang mugwort dolls in their homes during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "艾草人偶象征家庭守护者，可驱邪避瘟",
+      "en": "Mugwort dolls symbolize family guardians and can ward off evil spirits and disease"
+    }
+  },
+  {
+    "id": "DW_028",
+    "category": "dishes",
+    "question": {
+      "zh": "广东咸肉粽的特色馅料通常有哪些？",
+      "en": "What are the typical fillings in Cantonese savory zongzi?"
+    },
+    "answer": {
+      "zh": "咸肉、香菇、鲜虾、咸蛋黄、花生等",
+      "en": "Salted pork, shiitake mushrooms, fresh shrimp, salted egg yolks, peanuts, etc."
+    }
+  },
+  {
+    "id": "DW_029",
+    "category": "customs",
+    "question": {
+      "zh": "端午节时，人们为什么要在家中挂菖蒲剑？",
+      "en": "Why do people hang calamus swords in their homes during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "菖蒲形似剑，可以斩妖除魔，保护家人",
+      "en": "Calamus resembles a sword and is believed to cut down evil spirits, protecting the family"
+    }
+  },
+  {
+    "id": "DW_030",
+    "category": "history",
+    "question": {
+      "zh": "除了纪念屈原，端午节在南方部分地区还纪念哪位爱国诗人？",
+      "en": "Besides Qu Yuan, which patriotic poet is also commemorated during the Dragon Boat Festival in some southern regions?"
+    },
+    "answer": {
+      "zh": "伍子胥",
+      "en": "Wu Zixu"
+    }
+  },
+  {
+    "id": "DW_031",
+    "category": "customs",
+    "question": {
+      "zh": "端午节的"午时水"指的是什么？为什么人们要收集它？",
+      "en": "What is 'Noon Water' during the Dragon Boat Festival? Why do people collect it?"
+    },
+    "answer": {
+      "zh": "端午节正午时分的井水或河水，据说有治病消灾的功效",
+      "en": "Well or river water collected at noon on the Dragon Boat Festival, believed to have healing and protective properties"
+    }
+  },
+  {
+    "id": "DW_032",
+    "category": "customs",
+    "question": {
+      "zh": "端午节为什么要在床底下放艾草和苍术？",
+      "en": "Why do people place mugwort and atractylodes under beds during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "驱赶蚊虫和避邪，保证睡眠安宁",
+      "en": "To repel insects and evil spirits, ensuring peaceful sleep"
+    }
+  },
+  {
+    "id": "DW_033",
+    "category": "global",
+    "question": {
+      "zh": "日本的"端午节"与中国的有什么不同？",
+      "en": "How does Japan's 'Tango no Sekku' differ from China's Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "日本端午主要是男孩节，会悬挂鲤鱼旗和武士人偶",
+      "en": "Japan's festival is mainly a Boys' Day, featuring carp streamers and samurai dolls"
+    }
+  },
+  {
+    "id": "DW_034",
+    "category": "dishes",
+    "question": {
+      "zh": "端午节喝的"雄黄酒"是用什么制成的？有什么作用？",
+      "en": "What is 'Realgar Wine' made from and what is its purpose during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "用雄黄矿物泡制的酒，传说可以驱虫避毒",
+      "en": "Wine infused with realgar mineral, traditionally believed to repel insects and poisons"
+    }
+  },
+  {
+    "id": "DW_035",
+    "category": "customs",
+    "question": {
+      "zh": "端午节为什么要在手腕上系五彩绳？",
+      "en": "Why do people tie five-colored threads around their wrists during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "五彩绳象征五行相生，可保平安健康",
+      "en": "The five colors represent the five elements, believed to bring safety and health"
+    }
+  },
+  {
+    "id": "DW_036",
+    "category": "sports",
+    "question": {
+      "zh": "龙舟比赛中，"舵手"站在哪个位置？有什么作用？",
+      "en": "Where does the helmsman stand in dragon boat racing? What is their role?"
+    },
+    "answer": {
+      "zh": "站在龙舟尾部，负责掌舵控制方向",
+      "en": "At the stern of the boat, responsible for steering and controlling direction"
+    }
+  },
+  {
+    "id": "DW_037",
+    "category": "customs",
+    "question": {
+      "zh": "端午节时，为什么要在小孩手腕上绑"长命缕"？",
+      "en": "Why do people tie 'Longevity Threads' on children's wrists during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "祈求孩子长寿健康，避免疾病",
+      "en": "To pray for children's longevity and health, preventing illness"
+    }
+  },
+  {
+    "id": "DW_038",
+    "category": "literature",
+    "question": {
+      "zh": "屈原投江的汨罗江位于今天的哪个省份？",
+      "en": "In which modern Chinese province is the Miluo River, where Qu Yuan drowned himself?"
+    },
+    "answer": {
+      "zh": "湖南省",
+      "en": "Hunan Province"
+    }
+  },
+  {
+    "id": "DW_039",
+    "category": "dishes",
+    "question": {
+      "zh": "端午节吃的"咸鸭蛋"有什么特别之处？",
+      "en": "What is special about the salted duck eggs eaten during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "蛋黄油润红亮，象征阳光和好运",
+      "en": "The egg yolks are oily, bright red, symbolizing sunshine and good fortune"
+    }
+  },
+  {
+    "id": "DW_040",
+    "category": "customs",
+    "question": {
+      "zh": "端午节时，人们为什么要在家门口挂蒜头和苦艾？",
+      "en": "Why do people hang garlic bulbs and wormwood at their doorways during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "蒜头和苦艾的气味可以驱赶蚊虫和瘟疫",
+      "en": "The smell of garlic and wormwood can repel mosquitoes and epidemics"
+    }
+  }
+]

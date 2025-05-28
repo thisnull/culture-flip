@@ -1,0 +1,242 @@
+[
+  {
+    "id": "DW_001",
+    "category": "festivals",
+    "question": {
+      "zh": "端午节最初是为了纪念哪位伟大的爱国诗人？",
+      "en": "Which great patriotic poet is primarily commemorated during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "屈原",
+      "en": "Qu Yuan"
+    }
+  },
+  {
+    "id": "DW_002",
+    "category": "festivals",
+    "question": {
+      "zh": "端午节在每年农历几月几日举行？",
+      "en": "On which day of the lunar calendar is the Dragon Boat Festival celebrated each year?"
+    },
+    "answer": {
+      "zh": "农历五月初五",
+      "en": "The 5th day of the 5th lunar month"
+    }
+  },
+  {
+    "id": "DW_003",
+    "category": "festivals",
+    "question": {
+      "zh": "端午节的英文名"Dragon Boat Festival"来源于什么传统活动？",
+      "en": "What traditional activity gives the Dragon Boat Festival its English name?"
+    },
+    "answer": {
+      "zh": "赛龙舟",
+      "en": "Dragon boat racing"
+    }
+  },
+  {
+    "id": "DW_004",
+    "category": "history",
+    "question": {
+      "zh": "传说人们划龙舟是为了做什么？",
+      "en": "According to legend, why did people start racing dragon boats?"
+    },
+    "answer": {
+      "zh": "寻找和救起投江的屈原",
+      "en": "To search for and rescue Qu Yuan who drowned himself in the river"
+    }
+  },
+  {
+    "id": "DW_005",
+    "category": "dishes",
+    "question": {
+      "zh": "粽子的外皮通常用什么植物的叶子包裹？",
+      "en": "What plant leaves are typically used to wrap zongzi (rice dumplings)?"
+    },
+    "answer": {
+      "zh": "箬竹叶（或粽叶）",
+      "en": "Reed leaves or bamboo leaves"
+    }
+  },
+  {
+    "id": "DW_006",
+    "category": "dishes",
+    "question": {
+      "zh": "为什么人们在端午节吃粽子？",
+      "en": "Why do people eat zongzi during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "传说是为了防止鱼吃掉屈原的遗体",
+      "en": "Legend says it was to prevent fish from eating Qu Yuan's body"
+    }
+  },
+  {
+    "id": "DW_007",
+    "category": "dishes",
+    "question": {
+      "zh": "中国南方和北方的粽子有什么主要区别？",
+      "en": "What's the main difference between zongzi from northern and southern China?"
+    },
+    "answer": {
+      "zh": "南方粽子多为咸味，北方粽子多为甜味",
+      "en": "Southern zongzi are usually savory while northern ones are often sweet"
+    }
+  },
+  {
+    "id": "DW_008",
+    "category": "customs",
+    "question": {
+      "zh": "端午节为什么要在门上挂艾草和菖蒲？",
+      "en": "Why do people hang mugwort and calamus on doors during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "驱邪避瘟，保佑家人健康",
+      "en": "To ward off evil spirits and disease, protecting family health"
+    }
+  },
+  {
+    "id": "DW_009",
+    "category": "customs",
+    "question": {
+      "zh": "端午节小朋友佩戴的香囊里通常装有什么？",
+      "en": "What is typically inside the fragrant sachets that children wear during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "中草药和香料",
+      "en": "Chinese herbs and spices"
+    }
+  },
+  {
+    "id": "DW_010",
+    "category": "customs",
+    "question": {
+      "zh": "端午节的"五毒"指的是哪五种生物？",
+      "en": "What five creatures make up the 'Five Poisonous Creatures' associated with the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "蛇、蝎子、蜈蚣、壁虎、蟾蜍",
+      "en": "Snake, scorpion, centipede, gecko, and toad"
+    }
+  },
+  {
+    "id": "DW_011",
+    "category": "history",
+    "question": {
+      "zh": "屈原是哪个古代国家的大臣？",
+      "en": "Qu Yuan was a minister of which ancient Chinese state?"
+    },
+    "answer": {
+      "zh": "楚国",
+      "en": "The State of Chu"
+    }
+  },
+  {
+    "id": "DW_012",
+    "category": "customs",
+    "question": {
+      "zh": "端午节立蛋的习俗是基于什么原理？",
+      "en": "What principle is the Dragon Boat Festival egg-balancing custom based on?"
+    },
+    "answer": {
+      "zh": "阴阳平衡，此时立蛋更容易成功",
+      "en": "The balance of yin and yang makes it easier to stand eggs upright"
+    }
+  },
+  {
+    "id": "DW_013",
+    "category": "sports",
+    "question": {
+      "zh": "一条标准的龙舟通常需要多少名划手？",
+      "en": "How many paddlers are typically needed for a standard dragon boat?"
+    },
+    "answer": {
+      "zh": "20名划手（10对）",
+      "en": "20 paddlers (10 pairs)"
+    }
+  },
+  {
+    "id": "DW_014",
+    "category": "customs",
+    "question": {
+      "zh": "端午节为什么又被称为"女儿节"？",
+      "en": "Why is the Dragon Boat Festival also called the 'Daughters' Festival' in some regions?"
+    },
+    "answer": {
+      "zh": "在某些地区，这一天女孩会穿新衣、戴香囊，祈求健康平安",
+      "en": "In some regions, girls wear new clothes and sachets on this day, praying for health and safety"
+    }
+  },
+  {
+    "id": "DW_015",
+    "category": "literature",
+    "question": {
+      "zh": "屈原最著名的诗作是什么？",
+      "en": "What is Qu Yuan's most famous poem?"
+    },
+    "answer": {
+      "zh": "《离骚》",
+      "en": "Li Sao (The Lament)"
+    }
+  },
+  {
+    "id": "DW_016",
+    "category": "global",
+    "question": {
+      "zh": "端午节在哪一年被列入联合国教科文组织非物质文化遗产名录？",
+      "en": "In which year was the Dragon Boat Festival listed as UNESCO Intangible Cultural Heritage?"
+    },
+    "answer": {
+      "zh": "2009年",
+      "en": "2009"
+    }
+  },
+  {
+    "id": "DW_017",
+    "category": "dishes",
+    "question": {
+      "zh": "除了粽子，端午节还有什么传统食物？",
+      "en": "Besides zongzi, what other traditional food is eaten during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "咸鸭蛋、雄黄酒、五黄饮",
+      "en": "Salted duck eggs, realgar wine, and five-yellow drink"
+    }
+  },
+  {
+    "id": "DW_018",
+    "category": "customs",
+    "question": {
+      "zh": "端午节为什么要在家里挂钟馗像？",
+      "en": "Why do people hang images of Zhong Kui in their homes during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "钟馗是驱鬼辟邪的神灵，可保家宅平安",
+      "en": "Zhong Kui is a deity who drives away ghosts and evil spirits, protecting the household"
+    }
+  },
+  {
+    "id": "DW_019",
+    "category": "global",
+    "question": {
+      "zh": "哪个亚洲国家也庆祝类似端午节的节日，称为"Dano"？",
+      "en": "Which Asian country celebrates a similar festival to Dragon Boat Festival called 'Dano'?"
+    },
+    "answer": {
+      "zh": "韩国",
+      "en": "Korea"
+    }
+  },
+  {
+    "id": "DW_020",
+    "category": "customs",
+    "question": {
+      "zh": "端午节的"五色线"手链代表什么？",
+      "en": "What does the 'five-colored thread' bracelet represent during the Dragon Boat Festival?"
+    },
+    "answer": {
+      "zh": "五行（金木水火土）平衡，保佑平安健康",
+      "en": "Balance of the five elements (metal, wood, water, fire, earth), bringing safety and health"
+    }
+  }
+]
